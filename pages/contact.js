@@ -64,10 +64,18 @@ class Contact extends React.Component {
                 <ul className="list-inline text-center">
                   <li className="list-inline-item">
                     <a href="#">
-                      <span className="fa-stack fa-lg">
+                      <img
+                        src="/static/images/Dux_logo2.svg"
+                        style={{
+                          height: '75px',
+                          paddingBottom: '10px',
+                          color: 'white'
+                        }}
+                      />
+                      {/* <span className="fa-stack fa-lg">
                         <i className="fas fa-circle fa-stack-2x" />
                         <i className="fab fa-twitter fa-stack-1x fa-inverse" />
-                      </span>
+                      </span> */}
                     </a>
                   </li>
                   <li className="list-inline-item">
@@ -81,8 +89,8 @@ class Contact extends React.Component {
                   <li className="list-inline-item">
                     <a href="#">
                       <span className="fa-stack fa-lg">
-                        <i className="fas fa-circle fa-stack-2x" />
-                        <i className="fab fa-github fa-stack-1x fa-inverse" />
+                        {/* <i className="fas fa-circle fa-stack-2x" /> */}
+                        <i className="fab fa-instagram fa-stack-2x fa-inverse" />
                       </span>
                     </a>
                   </li>
@@ -94,6 +102,11 @@ class Contact extends React.Component {
             </Row>
           </Container>
         </footer>
+        <style jsx>
+          {`
+            @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+          `}
+        </style>
       </BaseLayout>
     );
   }
