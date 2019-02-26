@@ -2,12 +2,14 @@ import React from 'react';
 import Header from '../shared/Header';
 import Head from 'next/head';
 import { Container, Row } from 'reactstrap';
-
-import ScrollableAnchor, { goToTop } from 'react-scrollable-anchor';
+import ScrollableAnchor from 'react-scrollable-anchor';
+import { configureAnchors } from 'react-scrollable-anchor';
 
 const BaseLayout = props => {
   const { className, children } = props;
   const headerType = props.headerType || 'default';
+
+  configureAnchors({ scrollDuration: 800 });
 
   return (
     <React.Fragment>
@@ -21,7 +23,7 @@ const BaseLayout = props => {
         />
       </Head>
       <div className="layout-container">
-        <ScrollableAnchor id={'section1'}>
+        <ScrollableAnchor id={'upTop'}>
           <Header className={`port-nav-${headerType}`} />
         </ScrollableAnchor>
         <main className={`cover ${className}`}>
@@ -42,24 +44,18 @@ const BaseLayout = props => {
                           color: 'white'
                         }}
                       />
-                      {/* <span className="fa-stack fa-lg">
-                        <i className="fas fa-circle fa-stack-2x" />
-                        <i className="fab fa-twitter fa-stack-1x fa-inverse" />
-                      </span> */}
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="#">
+                    <a href="https://www.instagram.com/duxdevelopment/">
                       <span className="fa-stack fa-lg">
                         <i className="fab fa-instagram fa-stack-2x fa-inverse" />
                       </span>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="#section1">
+                    <a href="#upTop">
                       <span className="fa-stack fa-lg">
-                        {/* <i className="fas fa-circle fa-stack-2x" /> */}
-                        {/* <i className="fab fa-instagram fa-stack-2x fa-inverse" /> */}
                         <i className="fas fa-angle-double-up fa-stack-2x fa-inverse" />
                       </span>
                     </a>
