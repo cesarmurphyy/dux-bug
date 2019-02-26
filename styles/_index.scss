@@ -1,0 +1,344 @@
+// Index Page
+.cover {
+  background-color: darkcyan;
+  position: relative;
+}
+
+h1{
+  margin: 30px;
+}
+
+p{
+  margin:30px;
+}
+
+@mixin background-cover() {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin-top: 0;
+  position: relative;
+}
+
+.main-section {
+  background-image: url(/static/images/main-background.jpeg);
+  
+  
+  width: 100%;
+  height: 90%;
+
+  position: relative;
+  top: 95px;
+}
+
+
+ 
+// }
+
+.front-image{
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+  
+}
+
+#logo-image{
+  
+  display: block;
+
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  @media screen and (max-width: 768px) {
+    height: 250px;
+  }
+  
+
+
+}
+
+
+.logo-text-image{
+  display: block;
+
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.logo-text{
+  margin:50px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fade-container{
+  background: linear-gradient(rgba(0,0,0,0),rgba(255,255,255,1));
+  
+  height: 150px;
+  
+  
+  
+  
+}
+
+
+.hero-section {
+  h2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  perspective: 1000px;
+  color: white;
+  width: 400px;
+  position: relative;
+
+  &-content {
+    position: absolute;
+    bottom: 20px;
+    width: 360px;
+    left: 6%;
+    z-index: 1;
+
+    &-intro {
+      font-size: 17px;
+    }
+  }
+}
+
+.image {
+  width: auto;
+  max-width: 100%;
+}
+
+.hero-welcome-text > h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 27px;
+  margin-top: 80px;
+}
+
+.hero-welcome-bio {
+  margin-top: 20px;
+  color: white;
+
+  .fa-stack {
+    font-size: 28px;
+  }
+
+  .list-inline-item {
+    > a {
+      color: #373737;
+    }
+  }
+}
+
+.hero-welcome-wrapper {
+  justify-content: flex-end;
+}
+
+@media (max-width: 991px) {
+  .hero-section {
+    width: 341px;
+
+    &-content {
+      width: 341px;
+    }
+  }
+
+  .hero-welcome-text > h1 {
+    margin-top: 0px;
+  }
+}
+
+.background-image {
+  position: absolute;
+  width: 1762px;
+  height: 493px;
+}
+
+.shadow-custom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  box-shadow: -17px 13px 41px rgba(13, 78, 158, 0.6);
+  border: 2px solid #3bace5;
+
+  .shadow-inner {
+    width: 100%;
+    height: 100%;
+    box-shadow: -17px 13px 13px rgba(0, 0, 0, 0.09);
+  }
+}
+
+.shadow-custom-2 {
+  border: 2px solid #f37d49;
+  box-shadow: -17px 13px 41px rgba(13, 78, 158, 0.3);
+}
+
+.index-card{
+  border-radius: 20px;
+  background: #708090;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.card-button{
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 20px;
+  font-weight: bold;
+  
+}
+
+.display-image{
+  padding-top:10px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  margin:20px;
+  
+}
+
+
+
+.large-text{
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.medium-title{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  
+  margin:30px;
+
+}
+
+.medium-script{
+  margin: 30px;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+ 
+  margin: 10px;
+  list-style: none;
+  justify-content: space-evenly;
+
+
+}
+
+.content-container{
+  background: no-repeat center center; 
+  width: 100%;
+  position: relative;
+  display: flex;
+  
+  // background-color: #0E86DF;
+
+}
+
+
+.container-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  // background: #0E86DF;
+  background: no-repeat center center; 
+  opacity: 0.8;
+
+}
+
+.h1-covered{
+  color: white;
+  z-index: 100;
+  margin: 30px;
+}
+
+.p-covered{
+  margin: 30px;
+  color: white;
+  z-index: 50;
+}
+
+.more-info-button{
+  padding:30px;
+  background: lightgray;
+  border-radius: 10px;
+  margin-top: 50px;
+  
+}
+
+.container-inner{
+ 
+  
+  padding: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+
+
+.app-cover{
+  background: #373737;
+}
+
+.container-image{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  
+}
+
+.footer{
+  
+  background: white;
+}
+
+.pages-context{
+  color: black;
+
+}
+
+.ecommerce-contact{
+  background-image: url('/static/images/ecommerce-photo.jpeg');
+  width: 100%;
+}
+
+.contact-image{
+  height:150px;
+  margin: 30px;
+
+}
+
+.h1-contact{
+  padding: 15px 35px;
+  background: white;
+  z-index: 10;
+  border-radius: 40px;
+  font-size: 30px;
+  text-align: center;
+  // font-weight: bold;
+
+
+}

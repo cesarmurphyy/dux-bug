@@ -1,0 +1,46 @@
+@import './shared/fonts';
+@import './shared/colors';
+
+@import './index';
+@import './header';
+@import './blogs';
+@import './contact';
+@import './form';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', 'Helvetica';
+}
+
+.self-typed {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.base-page {
+  padding-top: 150px;
+  color: white;
+  background-color: #ecedee;
+  min-height: 50vh;
+
+  .page-header {
+    .page-header-title {
+      font-weight: 700;
+      color: black;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+}
