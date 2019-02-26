@@ -2,6 +2,7 @@ import React from 'react';
 import BaseLayout from '../components/layouts/BaseLayout';
 import BasePage from '../components/BasePage';
 import Typed from 'react-typed';
+import { goToTop } from 'react-scrollable-anchor';
 
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from '../routes';
@@ -52,61 +53,15 @@ class Contact extends React.Component {
                   </span>
                 </div>
                 <ContactForm />
+                <ContactForm />
+                <ContactForm />
+                <ContactForm />
+                <ContactForm />
+                <ContactForm />
               </div>
             </div>
           </Container>
         </div>
-
-        <footer>
-          <Container>
-            <Row>
-              <div className="col-lg-8 col-md-10 mx-auto">
-                <ul className="list-inline text-center">
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <img
-                        src="/static/images/Dux_logo2.svg"
-                        style={{
-                          height: '75px',
-                          paddingBottom: '10px',
-                          color: 'white'
-                        }}
-                      />
-                      {/* <span className="fa-stack fa-lg">
-                        <i className="fas fa-circle fa-stack-2x" />
-                        <i className="fab fa-twitter fa-stack-1x fa-inverse" />
-                      </span> */}
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <span className="fa-stack fa-lg">
-                        <i className="fas fa-circle fa-stack-2x" />
-                        <i className="fab fa-facebook-f fa-stack-1x fa-inverse" />
-                      </span>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <span className="fa-stack fa-lg">
-                        {/* <i className="fas fa-circle fa-stack-2x" /> */}
-                        <i className="fab fa-instagram fa-stack-2x fa-inverse" />
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-                <p className="copyright text-muted">
-                  Copyright &copy; Dux Development 2019
-                </p>
-              </div>
-            </Row>
-          </Container>
-        </footer>
-        <style jsx>
-          {`
-            @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
-          `}
-        </style>
       </BaseLayout>
     );
   }

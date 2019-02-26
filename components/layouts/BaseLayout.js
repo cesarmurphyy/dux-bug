@@ -1,6 +1,9 @@
 import React from 'react';
 import Header from '../shared/Header';
 import Head from 'next/head';
+import { Container, Row } from 'reactstrap';
+
+import ScrollableAnchor, { goToTop } from 'react-scrollable-anchor';
 
 const BaseLayout = props => {
   const { className, children } = props;
@@ -18,10 +21,62 @@ const BaseLayout = props => {
         />
       </Head>
       <div className="layout-container">
-        <Header className={`port-nav-${headerType}`} />
+        <ScrollableAnchor id={'section1'}>
+          <Header className={`port-nav-${headerType}`} />
+        </ScrollableAnchor>
         <main className={`cover ${className}`}>
           <div className="wrapper">{children}</div>
         </main>
+        <footer>
+          <Container>
+            <Row>
+              <div className="col-lg-8 col-md-10 mx-auto">
+                <ul className="list-inline text-center">
+                  <li className="list-inline-item">
+                    <a href="#">
+                      <img
+                        src="/static/images/Dux_logo2.svg"
+                        style={{
+                          height: '75px',
+                          paddingBottom: '10px',
+                          color: 'white'
+                        }}
+                      />
+                      {/* <span className="fa-stack fa-lg">
+                        <i className="fas fa-circle fa-stack-2x" />
+                        <i className="fab fa-twitter fa-stack-1x fa-inverse" />
+                      </span> */}
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="#">
+                      <span className="fa-stack fa-lg">
+                        <i className="fab fa-instagram fa-stack-2x fa-inverse" />
+                      </span>
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="#section1">
+                      <span className="fa-stack fa-lg">
+                        {/* <i className="fas fa-circle fa-stack-2x" /> */}
+                        {/* <i className="fab fa-instagram fa-stack-2x fa-inverse" /> */}
+                        <i className="fas fa-angle-double-up fa-stack-2x fa-inverse" />
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+                <p className="copyright text-muted">
+                  Copyright &copy; Dux Development 2019
+                </p>
+              </div>
+            </Row>
+          </Container>
+        </footer>
+        <style jsx>
+          {`
+            @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+          `}
+        </style>
       </div>
     </React.Fragment>
   );
