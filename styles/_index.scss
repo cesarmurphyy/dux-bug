@@ -17,13 +17,14 @@ p{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 .wrapper {
   min-height: 100vh;
   min-width: 100vw;
   margin-top: 0;
-  position: relative;
+  position: absolute;
 }
 
 .main-section {
@@ -37,19 +38,14 @@ p{
   top: 95px;
 
   #logo-image{
-
-    height: 500px;
-  
+    stroke: white;
+    animation: fill 2.8s ease forwards 4s;
     position: absolute;
-
     left: 50%;
-
-    top: 50%;
-    transform: translateY(-50%,-50%);
-
-    
-  
-  
+    top: 40vh;
+    transform: translate(-50%,-50%);
+    fill: transparent;
+    width: 40%;
   }
 
   .fade-container{
@@ -59,91 +55,146 @@ p{
     height: 200px;
     bottom: 0;
     width: 100%;
-  
-   
-    
-    
-    
+
     
   }
 }
 
+@keyframes move{
+  from{
+    transform:translate(0, 200px);
+    
+  }
 
- 
-// }
-
-
-
-#logo-image{
-  
-  position: absolute;
-
-  top: 400px;
-  left: 50%;
-  transform: translate(-50%,-50%);
-
-
+  to{
+    transform: translate(0,0);
+    stroke: white;
+  }
 }
 
+@keyframes fill{
+  from{
+    fill: transparent;
+  }
+  to{
+    fill: white; 
+    
+  }
+}
+
+@keyframes fadein{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes line-anim{
+
+  to{
+   
+    stroke-dashoffset: 0;
+
+  }
+}
+
+// .cls-1{
+  
+
+  
+// }
+
 #logo-image path:nth-child(1){
-  stroke-dasharray: 40px;
+  stroke: none;
+
+  animation: fadein 2.8s ease forwards 4s;
 }
 
 #logo-image path:nth-child(2){
-  stroke-dasharray: 40px;
+  stroke: none;
+  animation: fadein 2.8s ease forwards 4s;
 }
 
 #logo-image path:nth-child(3){
-  stroke-dasharray: 40px;
+  
+  stroke-dasharray: 280px;
+  stroke-dashoffset: 280px;
+  animation: line-anim 1.8s ease forwards 1s;
+
 }
 
 #logo-image path:nth-child(4){
-  stroke-dasharray: 40px;
+  stroke-dasharray: 330px;
+  stroke-dashoffset: 330px;
+  animation: line-anim 2.5s ease forwards 1s;
 }
 
 #logo-image path:nth-child(5){
-  stroke-dasharray: 40px;
+  stroke-dasharray: 315px;
+  stroke-dashoffset: 315px;
+  animation: line-anim 4s ease forwards 1s;
 }
 
 #logo-image path:nth-child(6){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 1s ease forwards 4s;
+  
 }
 
 #logo-image path:nth-child(7){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 1.2s ease forwards 4s;
 }
 
 #logo-image path:nth-child(8){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 1.4s ease forwards 4s;
 }
 
 #logo-image path:nth-child(9){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 1.6s ease forwards 4s;
+  
 }
 
 #logo-image path:nth-child(10){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 1.8s ease forwards 4s;
 }
 
 #logo-image path:nth-child(11){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 2s ease forwards 4s;
 }
 
 #logo-image path:nth-child(12){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 2.2s ease forwards 4s;
 }
-
 #logo-image path:nth-child(13){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 2.4s ease forwards 4s;
 }
 
 #logo-image path:nth-child(14){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 2.6s ease forwards 4s;
 }
 
 #logo-image path:nth-child(15){
-  stroke-dasharray: 40px;
+  stroke: transparent;
+  animation: move 2.8s ease forwards 4s;
 }
+
+#logo-image path:nth-child(16){
+  stroke: transparent;
+  animation: move 3s ease forwards 4s;
+}
+
+
+
 
 
 .logo-text-image{

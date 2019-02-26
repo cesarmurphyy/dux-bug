@@ -5,6 +5,8 @@ import { Button, Container, Row, Col } from 'reactstrap';
 import ContentContainer from '../components/shared/ContentContainer';
 import ContentContainer2 from '../components/shared/ContentContainer2';
 import ContactContainer from '../components/shared/ContactContainer';
+import AnimatedLogo from '../components/shared/AnimatedLogo';
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -20,7 +22,7 @@ class Index extends React.Component {
             <Row>
               <Col md="12">
                 <div className="logo-image-conatiner">
-                  <img id="logo-image" src="/static/images/main-logo.svg" />
+                  <AnimatedLogo />
                 </div>
               </Col>
             </Row>
