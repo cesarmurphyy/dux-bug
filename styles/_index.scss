@@ -1,4 +1,6 @@
 // Index Page
+
+
 .cover {
   background-color: darkcyan;
   position: relative;
@@ -40,12 +42,14 @@ p{
   #logo-image{
     stroke: white;
     animation: fill 2.8s ease forwards 4s;
-    position: absolute;
+    
+    position: absolute ;
     left: 50%;
     top: 40vh;
     transform: translate(-50%,-50%);
     fill: transparent;
-    width: 40%;
+    width: 55%;
+   
   }
 
   .fade-container{
