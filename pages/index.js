@@ -16,7 +16,7 @@ class Index extends React.Component {
     return (
       <BaseLayout className="cover" headerType="index">
         <div className="main-section">
-          <Container className="front-image">
+          <Container>
             <Row>
               <Col md="12">
                 <div className="logo-image-conatiner">
