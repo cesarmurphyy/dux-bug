@@ -43,7 +43,7 @@ p {
   min-height: 100vh;
   min-width: 100vw;
   margin-top: 0;
-  position: absolute; }
+  position: relative; }
 
 .main-section {
   background-image: url(/static/images/main-background.jpeg);
@@ -331,9 +331,6 @@ p {
   position: relative;
   height: 300px;
   width: 300px; }
-
-.footer {
-  background: white; }
 
 .pages-context {
   color: black; }

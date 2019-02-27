@@ -51,20 +51,7 @@ class GraphicDesign extends React.Component {
           blurb={`It is time to take your share of the $80+ billion dollar industry.`}
         />
 
-        <div className="footer">
-          <Container>
-            <Row>
-              <Col md="12">
-                <ul className="medium-script">
-                  <li>Home</li>
-                  <li>eCommerce</li>
-                  <li>Graphic Design</li>
-                  <li>Contact</li>
-                </ul>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+       
       </BaseLayout>
     );
   }
