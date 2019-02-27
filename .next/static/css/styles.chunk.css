@@ -30,7 +30,7 @@
   font-style: italic; }
 
 .cover {
-  background-color: darkcyan;
+  background-color: #25628b;
   position: relative; }
 
 h1 {
@@ -46,11 +46,12 @@ p {
   position: relative; }
 
 .main-section {
-  background-image: url(/static/images/main-background.jpeg);
+  background-image: url(/static/images/main-background2.jpg);
   width: 100%;
   height: 90vh;
   position: relative;
-  top: 95px; }
+  background-size: cover;
+  animation: fadein 5s ease 0s 1 normal none running; }
   .main-section #logo-image {
     stroke: white;
     animation: fill 2.8s ease forwards 4s;
@@ -258,6 +259,9 @@ p {
   margin-right: auto;
   position: relative;
   height: 100%; }
+  @media screen and (max-width: 991px) {
+    .display-image {
+      height: 450px; } }
 
 .display-image-inner {
   position: absolute;
@@ -353,7 +357,8 @@ p {
 
 .port-navbar.port-nav-base {
   padding: 10px 20px;
-  width: 100%;
+  margin: 20px;
+  width: 80%;
   z-index: 1;
   background: white; }
   .port-navbar.port-nav-base .port-navbar-brand {

@@ -21,10 +21,6 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/webdev": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

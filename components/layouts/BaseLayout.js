@@ -19,13 +19,21 @@ const BaseLayout = props => {
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
       </Head>
-      <div className="layout-container">
+      <div>
         <ScrollableAnchor id={'upTop'}>
-          <Header className={`port-nav-${headerType}`} />
+          <div />
         </ScrollableAnchor>
+        <Container>
+          <Row>
+            <div>
+              <Header className={`port-nav-${headerType}`} />
+            </div>
+          </Row>
+        </Container>
+
         <main className={`cover ${className}`}>
           <div className="wrapper">{children}</div>
         </main>
@@ -41,7 +49,7 @@ const BaseLayout = props => {
                         style={{
                           height: '75px',
                           paddingBottom: '10px',
-                          fill: 'white'
+                          fill: '#FFFFFF'
                         }}
                       />
                     </a>
