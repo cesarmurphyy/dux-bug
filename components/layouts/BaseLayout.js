@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { Container, Row } from 'reactstrap';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
+import DuxLogo from '../shared/DuxLogo';
 
 const BaseLayout = props => {
   const { className, children, title } = props;
@@ -28,9 +29,7 @@ const BaseLayout = props => {
         </ScrollableAnchor>
         <Container>
           <Row>
-            <div>
-              <Header className={`port-nav-${headerType}`} />
-            </div>
+            <Header className={`port-nav-${headerType}`} />
           </Row>
         </Container>
 
@@ -41,17 +40,10 @@ const BaseLayout = props => {
           <Container>
             <Row>
               <div className="col-lg-8 col-md-10 mx-auto">
-                <ul className="list-inline text-center">
+                <ul className="footer-icon-container">
                   <li className="list-inline-item">
                     <a href="#">
-                      <img
-                        src="/static/images/Dux_logo2.svg"
-                        style={{
-                          height: '75px',
-                          paddingBottom: '10px',
-                          fill: '#FFFFFF'
-                        }}
-                      />
+                      <DuxLogo />
                     </a>
                   </li>
                   <li className="list-inline-item">

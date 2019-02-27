@@ -158,6 +158,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-scrollable-anchor */ "react-scrollable-anchor");
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _shared_DuxLogo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../shared/DuxLogo */ "./components/shared/DuxLogo.js");
+
 
 
 
@@ -185,11 +187,9 @@ var BaseLayout = function BaseLayout(props) {
     id: 'upTop'
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-2212675550"
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Container"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2212675550"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shared_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Container"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shared_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     className: "port-nav-".concat(headerType)
-  })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("main", {
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("main", {
     className: "jsx-2212675550" + " " + "cover ".concat(className)
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-2212675550" + " " + "wrapper"
@@ -198,21 +198,13 @@ var BaseLayout = function BaseLayout(props) {
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Container"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-2212675550" + " " + "col-lg-8 col-md-10 mx-auto"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-    className: "jsx-2212675550" + " " + "list-inline text-center"
+    className: "jsx-2212675550" + " " + "footer-icon-container"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "jsx-2212675550" + " " + "list-inline-item"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#",
     className: "jsx-2212675550"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "/static/images/Dux_logo2.svg",
-    style: {
-      height: '75px',
-      paddingBottom: '10px',
-      fill: '#FFFFFF'
-    },
-    className: "jsx-2212675550"
-  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shared_DuxLogo__WEBPACK_IMPORTED_MODULE_6__["default"], null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "jsx-2212675550" + " " + "list-inline-item"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://www.instagram.com/duxdevelopment/",
@@ -234,7 +226,7 @@ var BaseLayout = function BaseLayout(props) {
     className: "jsx-2212675550" + " " + "copyright text-muted"
   }, "Copyright \xA9 Dux Development 2019"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "2212675550",
-    css: "@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qb3NocGF1bGluZS9kdXgvd2Vic2l0ZS9jb21wb25lbnRzL2xheW91dHMvQmFzZUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUErRVcsQUFFbUYiLCJmaWxlIjoiL1VzZXJzL2pvc2hwYXVsaW5lL2R1eC93ZWJzaXRlL2NvbXBvbmVudHMvbGF5b3V0cy9CYXNlTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi4vc2hhcmVkL0hlYWRlcic7XG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuaW1wb3J0IHsgQ29udGFpbmVyLCBSb3cgfSBmcm9tICdyZWFjdHN0cmFwJztcbmltcG9ydCBTY3JvbGxhYmxlQW5jaG9yIGZyb20gJ3JlYWN0LXNjcm9sbGFibGUtYW5jaG9yJztcbmltcG9ydCB7IGNvbmZpZ3VyZUFuY2hvcnMgfSBmcm9tICdyZWFjdC1zY3JvbGxhYmxlLWFuY2hvcic7XG5cbmNvbnN0IEJhc2VMYXlvdXQgPSBwcm9wcyA9PiB7XG4gIGNvbnN0IHsgY2xhc3NOYW1lLCBjaGlsZHJlbiwgdGl0bGUgfSA9IHByb3BzO1xuICBjb25zdCBoZWFkZXJUeXBlID0gcHJvcHMuaGVhZGVyVHlwZSB8fCAnZGVmYXVsdCc7XG5cbiAgY29uZmlndXJlQW5jaG9ycyh7IHNjcm9sbER1cmF0aW9uOiA4MDAgfSk7XG5cbiAgcmV0dXJuIChcbiAgICA8UmVhY3QuRnJhZ21lbnQ+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPnt0aXRsZX08L3RpdGxlPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJodHRwczovL3VzZS5mb250YXdlc29tZS5jb20vcmVsZWFzZXMvdjUuNy4yL2Nzcy9hbGwuY3NzXCJcbiAgICAgICAgICBpbnRlZ3JpdHk9XCJzaGEzODQtZm5tT0NxYlRsV0lsajhMeVRqbzdtT1VTdGpzS0M0cE9wUWJxeWk3UnJoTjd1ZGk5UndoS2tNSHB2TGJIRzlTclwiXG4gICAgICAgICAgY3Jvc3NPcmlnaW49XCJhbm9ueW1vdXNcIlxuICAgICAgICAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPGRpdj5cbiAgICAgICAgPFNjcm9sbGFibGVBbmNob3IgaWQ9eyd1cFRvcCd9PlxuICAgICAgICAgIDxkaXYgLz5cbiAgICAgICAgPC9TY3JvbGxhYmxlQW5jaG9yPlxuICAgICAgICA8Q29udGFpbmVyPlxuICAgICAgICAgIDxSb3c+XG4gICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICA8SGVhZGVyIGNsYXNzTmFtZT17YHBvcnQtbmF2LSR7aGVhZGVyVHlwZX1gfSAvPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9Sb3c+XG4gICAgICAgIDwvQ29udGFpbmVyPlxuXG4gICAgICAgIDxtYWluIGNsYXNzTmFtZT17YGNvdmVyICR7Y2xhc3NOYW1lfWB9PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwid3JhcHBlclwiPntjaGlsZHJlbn08L2Rpdj5cbiAgICAgICAgPC9tYWluPlxuICAgICAgICA8Zm9vdGVyPlxuICAgICAgICAgIDxDb250YWluZXI+XG4gICAgICAgICAgICA8Um93PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy04IGNvbC1tZC0xMCBteC1hdXRvXCI+XG4gICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT1cImxpc3QtaW5saW5lIHRleHQtY2VudGVyXCI+XG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwibGlzdC1pbmxpbmUtaXRlbVwiPlxuICAgICAgICAgICAgICAgICAgICA8YSBocmVmPVwiI1wiPlxuICAgICAgICAgICAgICAgICAgICAgIDxpbWdcbiAgICAgICAgICAgICAgICAgICAgICAgIHNyYz1cIi9zdGF0aWMvaW1hZ2VzL0R1eF9sb2dvMi5zdmdcIlxuICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAnNzVweCcsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmdCb3R0b206ICcxMHB4JyxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZmlsbDogJyNGRkZGRkYnXG4gICAgICAgICAgICAgICAgICAgICAgICB9fVxuICAgICAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwibGlzdC1pbmxpbmUtaXRlbVwiPlxuICAgICAgICAgICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9kdXhkZXZlbG9wbWVudC9cIj5cbiAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJmYS1zdGFjayBmYS1sZ1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiZmFiIGZhLWluc3RhZ3JhbSBmYS1zdGFjay0yeCBmYS1pbnZlcnNlXCIgLz5cbiAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwibGlzdC1pbmxpbmUtaXRlbVwiPlxuICAgICAgICAgICAgICAgICAgICA8YSBocmVmPVwiI3VwVG9wXCI+XG4gICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZmEtc3RhY2sgZmEtbGdcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImZhcyBmYS1hbmdsZS1kb3VibGUtdXAgZmEtc3RhY2stMnggZmEtaW52ZXJzZVwiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2xpPlxuICAgICAgICAgICAgICAgIDwvdWw+XG4gICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwiY29weXJpZ2h0IHRleHQtbXV0ZWRcIj5cbiAgICAgICAgICAgICAgICAgIENvcHlyaWdodCAmY29weTsgRHV4IERldmVsb3BtZW50IDIwMTlcbiAgICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9Sb3c+XG4gICAgICAgICAgPC9Db250YWluZXI+XG4gICAgICAgIDwvZm9vdGVyPlxuICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgIHtgXG4gICAgICAgICAgICBAaW1wb3J0IHVybCgnaHR0cHM6Ly91c2UuZm9udGF3ZXNvbWUuY29tL3JlbGVhc2VzL3Y1LjUuMC9jc3MvYWxsLmNzcycpO1xuICAgICAgICAgIGB9XG4gICAgICAgIDwvc3R5bGU+XG4gICAgICA8L2Rpdj5cbiAgICA8L1JlYWN0LkZyYWdtZW50PlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgQmFzZUxheW91dDtcbiJdfQ== */\n/*@ sourceURL=/Users/joshpauline/dux/website/components/layouts/BaseLayout.js */"
+    css: "@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qb3NocGF1bGluZS9kdXgvd2Vic2l0ZS9jb21wb25lbnRzL2xheW91dHMvQmFzZUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1RVcsQUFFbUYiLCJmaWxlIjoiL1VzZXJzL2pvc2hwYXVsaW5lL2R1eC93ZWJzaXRlL2NvbXBvbmVudHMvbGF5b3V0cy9CYXNlTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi4vc2hhcmVkL0hlYWRlcic7XG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuaW1wb3J0IHsgQ29udGFpbmVyLCBSb3cgfSBmcm9tICdyZWFjdHN0cmFwJztcbmltcG9ydCBTY3JvbGxhYmxlQW5jaG9yIGZyb20gJ3JlYWN0LXNjcm9sbGFibGUtYW5jaG9yJztcbmltcG9ydCB7IGNvbmZpZ3VyZUFuY2hvcnMgfSBmcm9tICdyZWFjdC1zY3JvbGxhYmxlLWFuY2hvcic7XG5pbXBvcnQgRHV4TG9nbyBmcm9tICcuLi9zaGFyZWQvRHV4TG9nbyc7XG5cbmNvbnN0IEJhc2VMYXlvdXQgPSBwcm9wcyA9PiB7XG4gIGNvbnN0IHsgY2xhc3NOYW1lLCBjaGlsZHJlbiwgdGl0bGUgfSA9IHByb3BzO1xuICBjb25zdCBoZWFkZXJUeXBlID0gcHJvcHMuaGVhZGVyVHlwZSB8fCAnZGVmYXVsdCc7XG5cbiAgY29uZmlndXJlQW5jaG9ycyh7IHNjcm9sbER1cmF0aW9uOiA4MDAgfSk7XG5cbiAgcmV0dXJuIChcbiAgICA8UmVhY3QuRnJhZ21lbnQ+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPnt0aXRsZX08L3RpdGxlPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJodHRwczovL3VzZS5mb250YXdlc29tZS5jb20vcmVsZWFzZXMvdjUuNy4yL2Nzcy9hbGwuY3NzXCJcbiAgICAgICAgICBpbnRlZ3JpdHk9XCJzaGEzODQtZm5tT0NxYlRsV0lsajhMeVRqbzdtT1VTdGpzS0M0cE9wUWJxeWk3UnJoTjd1ZGk5UndoS2tNSHB2TGJIRzlTclwiXG4gICAgICAgICAgY3Jvc3NPcmlnaW49XCJhbm9ueW1vdXNcIlxuICAgICAgICAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPGRpdj5cbiAgICAgICAgPFNjcm9sbGFibGVBbmNob3IgaWQ9eyd1cFRvcCd9PlxuICAgICAgICAgIDxkaXYgLz5cbiAgICAgICAgPC9TY3JvbGxhYmxlQW5jaG9yPlxuICAgICAgICA8Q29udGFpbmVyPlxuICAgICAgICAgIDxSb3c+XG4gICAgICAgICAgICA8SGVhZGVyIGNsYXNzTmFtZT17YHBvcnQtbmF2LSR7aGVhZGVyVHlwZX1gfSAvPlxuICAgICAgICAgIDwvUm93PlxuICAgICAgICA8L0NvbnRhaW5lcj5cblxuICAgICAgICA8bWFpbiBjbGFzc05hbWU9e2Bjb3ZlciAke2NsYXNzTmFtZX1gfT5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIndyYXBwZXJcIj57Y2hpbGRyZW59PC9kaXY+XG4gICAgICAgIDwvbWFpbj5cbiAgICAgICAgPGZvb3Rlcj5cbiAgICAgICAgICA8Q29udGFpbmVyPlxuICAgICAgICAgICAgPFJvdz5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctOCBjb2wtbWQtMTAgbXgtYXV0b1wiPlxuICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9XCJmb290ZXItaWNvbi1jb250YWluZXJcIj5cbiAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJsaXN0LWlubGluZS1pdGVtXCI+XG4gICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9XCIjXCI+XG4gICAgICAgICAgICAgICAgICAgICAgPER1eExvZ28gLz5cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgPC9saT5cbiAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJsaXN0LWlubGluZS1pdGVtXCI+XG4gICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL2R1eGRldmVsb3BtZW50L1wiPlxuICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImZhLXN0YWNrIGZhLWxnXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJmYWIgZmEtaW5zdGFncmFtIGZhLXN0YWNrLTJ4IGZhLWludmVyc2VcIiAvPlxuICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgPC9saT5cbiAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJsaXN0LWlubGluZS1pdGVtXCI+XG4gICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9XCIjdXBUb3BcIj5cbiAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJmYS1zdGFjayBmYS1sZ1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiZmFzIGZhLWFuZ2xlLWRvdWJsZS11cCBmYS1zdGFjay0yeCBmYS1pbnZlcnNlXCIgLz5cbiAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICAgICAgPC91bD5cbiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJjb3B5cmlnaHQgdGV4dC1tdXRlZFwiPlxuICAgICAgICAgICAgICAgICAgQ29weXJpZ2h0ICZjb3B5OyBEdXggRGV2ZWxvcG1lbnQgMjAxOVxuICAgICAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L1Jvdz5cbiAgICAgICAgICA8L0NvbnRhaW5lcj5cbiAgICAgICAgPC9mb290ZXI+XG4gICAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgICAge2BcbiAgICAgICAgICAgIEBpbXBvcnQgdXJsKCdodHRwczovL3VzZS5mb250YXdlc29tZS5jb20vcmVsZWFzZXMvdjUuNS4wL2Nzcy9hbGwuY3NzJyk7XG4gICAgICAgICAgYH1cbiAgICAgICAgPC9zdHlsZT5cbiAgICAgIDwvZGl2PlxuICAgIDwvUmVhY3QuRnJhZ21lbnQ+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBCYXNlTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/Users/joshpauline/dux/website/components/layouts/BaseLayout.js */"
   })));
 };
 
@@ -423,17 +415,19 @@ function (_React$Component) {
         style: {
           background: "".concat(this.props.overlay)
         }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-        md: "12",
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "contact-container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+        md: "6",
         className: "container-inner"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "contact-image",
         src: "/static/images/Dux_logo1.svg"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-        className: "h1-covered"
-      }, this.props.blurb)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "container-inner"
+      }, this.props.blurb)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
         className: "h1-contact"
-      }, "contact us"))))));
+      }, "contact us")))))));
     }
   }]);
 
@@ -512,7 +506,9 @@ function (_React$Component) {
         style: {
           background: "".concat(this.props.overlay)
         }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+        className: "super-container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
         md: "6"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "display-image"
@@ -520,12 +516,15 @@ function (_React$Component) {
         className: "display-image-inner",
         src: this.props.featureImage
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-        md: "6"
+        md: "6",
+        className: "container-button"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "container-inner"
       }, this.props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "container-inner"
-      }, this.props.content))))));
+      }, this.props.content), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+        className: "h1-contact"
+      }, "contact us"))))));
     }
   }]);
 
@@ -602,7 +601,9 @@ function (_React$Component) {
         style: {
           background: "".concat(this.props.overlay)
         }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+        className: "super-container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
         md: "6"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "container-inner"
@@ -623,6 +624,77 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (ContentContainer2);
+
+/***/ }),
+
+/***/ "./components/shared/DuxLogo.js":
+/*!**************************************!*\
+  !*** ./components/shared/DuxLogo.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var DuxLogo =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(DuxLogo, _React$Component);
+
+  function DuxLogo() {
+    _classCallCheck(this, DuxLogo);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(DuxLogo).apply(this, arguments));
+  }
+
+  _createClass(DuxLogo, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+        viewBox: "0 0 40 100",
+        id: "dux-logo"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+        id: "Layer_2",
+        "data-name": "Layer 2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+        id: "Layer_1-2",
+        "data-name": "Layer 1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "dux-logo-child",
+        d: "M18,84.73v73.54l-9-9V93.73l9-9M27,63,0,90v63l27,27V63Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "dux-logo-child",
+        d: "M45,22l9,9,.06,118.27-9.05,9V22M35.94,180,63,153V27L36,0"
+      })))));
+    }
+  }]);
+
+  return DuxLogo;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (DuxLogo);
 
 /***/ }),
 
@@ -861,8 +933,10 @@ function (_React$Component) {
         className: "logo-image-conatiner"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_shared_AnimatedLogo__WEBPACK_IMPORTED_MODULE_7__["default"], null))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "fade-container"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "fade-container-rad"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "content-container",
+        className: "typed-container",
         style: {
           background: 'white'
         }
@@ -914,6 +988,7 @@ function (_React$Component) {
         image: '/static/images/graphic-design-backing.jpeg',
         overlay: '#25628b'
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_shared_ContactContainer__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        font: 'white',
         image: '/static/images/contact-backing.jpg',
         overlay: '#272727',
         blurb: "We look forward to chatting with you about your next dream idea. If you have something in mind that is not listed, don\u2019t hesitate to ask.\n          "

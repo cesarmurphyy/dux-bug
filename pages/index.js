@@ -27,9 +27,10 @@ class Index extends React.Component {
             </Row>
           </Container>
           <div className="fade-container" />
+          <div className="fade-container-rad" />
         </div>
 
-        <div className="content-container" style={{ background: 'white' }}>
+        <div className="typed-container" style={{ background: 'white' }}>
           <Container>
             <Row>
               <Col md="12" className="self-typed">
@@ -86,6 +87,7 @@ class Index extends React.Component {
         />
 
         <ContactContainer
+          font={'white'}
           image={'/static/images/contact-backing.jpg'}
           overlay={'#272727'}
           blurb={`We look forward to chatting with you about your next dream idea. If you have something in mind that is not listed, don’t hesitate to ask.

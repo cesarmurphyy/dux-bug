@@ -1,17 +1,16 @@
 // Index Page
 
-
 .cover {
   background-color: #25628b;
   position: relative;
 }
 
-h1{
-  margin: 30px;
+h1 {
+  // margin: 30px;
 }
 
-p{
-  margin:30px;
+p {
+  // margin: 30px;
 }
 
 @mixin background-cover() {
@@ -19,7 +18,6 @@ p{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 .wrapper {
@@ -27,69 +25,84 @@ p{
   min-width: 100vw;
   margin-top: 0;
   position: relative;
-  
 }
 
 .main-section {
   background-image: url(/static/images/main-background2.jpg);
-  
-  
+
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 
   position: relative;
-  
+
   background-size: cover;
   animation: fadein 5s ease 0s 1 normal none running;
 
-  #logo-image{
+  #logo-image {
     stroke: white;
     animation: fill 2.8s ease forwards 4s;
-    
-    position: absolute ;
+
+    position: absolute;
     left: 50%;
-    top: 40vh;
-    transform: translate(-50%,-50%);
+    top: 50vh;
+    transform: translate(-50%, -50%);
     fill: transparent;
     width: 55%;
-   
+
+    @media screen and(max-width: 765px) {
+      width: 70%;
+    }
   }
 
-  .fade-container{
+  .fade-container {
     z-index: 10;
     position: absolute;
-    background: linear-gradient(rgba(0,0,0,0), rgb(255,255,255));
-    height: 200px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(255, 255, 255, 1) 80%
+    );
+
+    height: 100px;
     bottom: 0;
     width: 100%;
-
-    
   }
+  //   .fade-container-rad {
+  //     z-index: 10;
+  //     position: absolute;
+  //     background: radial-gradient(
+  //       ellipse at top,
+  //       rgba(0, 0, 0, 0) 0%,
+  //       rgba(255, 255, 255, 0.7) 100%
+  //     );
+
+  //     height: 100%;
+  //     bottom: 0;
+  //     width: 100%;
+  //   }
 }
 
-@keyframes move{
-  from{
-    transform:translate(0, 200px);
-    
+@keyframes move {
+  from {
+    transform: translate(0, 200px);
   }
 
-  to{
-    transform: translate(0,0);
+  to {
+    transform: translate(0, 0);
     stroke: white;
   }
 }
 
-@keyframes fill{
-  from{
+@keyframes fill {
+  from {
     fill: transparent;
   }
-  to{
-    fill: white; 
-    
+  to {
+    fill: white;
   }
 }
 
-@keyframes fadein{
+@keyframes fadein {
   from {
     opacity: 0;
   }
@@ -98,130 +111,113 @@ p{
   }
 }
 
-@keyframes line-anim{
-
-  to{
-   
+@keyframes line-anim {
+  to {
     stroke-dashoffset: 0;
-
   }
 }
 
 // .cls-1{
-  
 
-  
 // }
 
-#logo-image path:nth-child(1){
+#logo-image path:nth-child(1) {
   stroke: none;
 
   animation: fadein 2.8s ease forwards 4s;
 }
 
-#logo-image path:nth-child(2){
+#logo-image path:nth-child(2) {
   stroke: none;
   animation: fadein 2.8s ease forwards 4s;
 }
 
-#logo-image path:nth-child(3){
-  
+#logo-image path:nth-child(3) {
   stroke-dasharray: 280px;
   stroke-dashoffset: 280px;
   animation: line-anim 1.8s ease forwards 1s;
-
 }
 
-#logo-image path:nth-child(4){
+#logo-image path:nth-child(4) {
   stroke-dasharray: 330px;
   stroke-dashoffset: 330px;
   animation: line-anim 2.5s ease forwards 1s;
 }
 
-#logo-image path:nth-child(5){
+#logo-image path:nth-child(5) {
   stroke-dasharray: 315px;
   stroke-dashoffset: 315px;
   animation: line-anim 4s ease forwards 1s;
 }
 
-#logo-image path:nth-child(6){
+#logo-image path:nth-child(6) {
   stroke: transparent;
   animation: move 1s ease forwards 4s;
-  
 }
 
-#logo-image path:nth-child(7){
+#logo-image path:nth-child(7) {
   stroke: transparent;
   animation: move 1.2s ease forwards 4s;
 }
 
-#logo-image path:nth-child(8){
+#logo-image path:nth-child(8) {
   stroke: transparent;
   animation: move 1.4s ease forwards 4s;
 }
 
-#logo-image path:nth-child(9){
+#logo-image path:nth-child(9) {
   stroke: transparent;
   animation: move 1.6s ease forwards 4s;
-  
 }
 
-#logo-image path:nth-child(10){
+#logo-image path:nth-child(10) {
   stroke: transparent;
   animation: move 1.8s ease forwards 4s;
 }
 
-#logo-image path:nth-child(11){
+#logo-image path:nth-child(11) {
   stroke: transparent;
   animation: move 2s ease forwards 4s;
 }
 
-#logo-image path:nth-child(12){
+#logo-image path:nth-child(12) {
   stroke: transparent;
   animation: move 2.2s ease forwards 4s;
 }
-#logo-image path:nth-child(13){
+#logo-image path:nth-child(13) {
   stroke: transparent;
   animation: move 2.4s ease forwards 4s;
 }
 
-#logo-image path:nth-child(14){
+#logo-image path:nth-child(14) {
   stroke: transparent;
   animation: move 2.6s ease forwards 4s;
 }
 
-#logo-image path:nth-child(15){
+#logo-image path:nth-child(15) {
   stroke: transparent;
   animation: move 2.8s ease forwards 4s;
 }
 
-#logo-image path:nth-child(16){
+#logo-image path:nth-child(16) {
   stroke: transparent;
   animation: move 3s ease forwards 4s;
 }
 
-
-
-
-
-.logo-text-image{
+.logo-text-image {
   display: block;
 
   height: 150px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-.logo-text{
-  margin:50px;
+.logo-text {
+  margin: 50px;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
 }
-
-
-
 
 .hero-section {
   h2 {
@@ -319,172 +315,181 @@ p{
   box-shadow: -17px 13px 41px rgba(13, 78, 158, 0.3);
 }
 
-.index-card{
+.index-card {
   border-radius: 20px;
   background: #708090;
   position: relative;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  
 }
-.card-button{
+.card-button {
   text-align: center;
   padding: 8px;
   border-radius: 8px;
   margin: 20px;
   font-weight: bold;
-  
 }
 
-.display-image{
-  
-  margin-left: auto; 
-  margin-right: auto;
- 
-  position: relative;
+.display-image {
+  display: flex;
+  vertical-align: middle;
+  // margin-left: auto;
+  // margin-right: auto;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+
+  // position: relative;
+
   height: 100%;
 
-  @media screen and (max-width: 991px) {
-    height: 450px;
+  @media screen and (max-width: 765px) {
+    height: 200px;
   }
-  
-  
 }
 
-.display-image-inner{
+.display-image-inner {
   position: absolute;
-  
+
   max-height: 100%;
   max-width: 100%;
- 
-  
+
   left: 50%;
   top: 50%;
-  padding: 30px;
+
   transform: translate(-50%, -50%);
 }
 
-
-
-.large-text{
+.large-text {
   text-align: center;
   padding: 30px;
   font-size: 50px;
   font-weight: bold;
 }
 
-.medium-title{
+.medium-title {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  
-  margin:30px;
 
+  // margin: 30px;
 }
 
-.medium-script{
+.medium-script {
   margin: 30px;
   display: flex;
   font-size: 20px;
   text-align: center;
- 
+
   margin: 10px;
   list-style: none;
   justify-content: space-evenly;
-
-
 }
 
-.content-container{
-  background: no-repeat center center; 
+.content-container {
+  background: no-repeat center center;
   width: 100%;
   position: relative;
   display: flex;
-  height: 100%;
-  
-  // background-color: #0E86DF;
+  min-height: 300px;
 
+  // padding: 20px 0 20px 0;
+
+  // background-color: #0E86DF;
 }
 
+.typed-container {
+  height: 100%;
+}
 
-.container-overlay{
+.container-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   // background: #0E86DF;
-  background: no-repeat center center; 
+  background: no-repeat center center;
   opacity: 0.8;
-
 }
 
-.h1-covered{
+.h1-covered {
   color: white;
-  z-index: 100;
-  margin: 30px;
+  z-index: 10;
+  // margin: 30px;
 }
 
-.p-covered{
+.p-covered {
   margin: 30px;
   color: white;
   z-index: 50;
 }
 
-.more-info-button{
-  padding:30px;
+.more-info-button {
+  padding: 30px;
   background: lightgray;
   border-radius: 10px;
   margin-top: 50px;
-  
 }
 
-.container-inner{
- 
-  
+.container-inner {
   padding: 16px;
   text-align: center;
-  margin-bottom: 30px;
-  
+  // margin-bottom: 30px;
 }
 
-
-
-.app-cover{
+.app-cover {
   background: #373737;
 }
 
-.container-image{
+.container-image {
   position: relative;
   height: 300px;
   width: 300px;
-  
 }
 
-
-.pages-context{
+.pages-context {
   color: black;
-
 }
 
-.ecommerce-contact{
+.ecommerce-contact {
   background-image: url('/static/images/ecommerce-photo.jpeg');
   width: 100%;
 }
 
-.contact-image{
-  height:150px;
+.contact-image {
+  height: 150px;
   margin: 30px;
-
 }
 
-.h1-contact{
+.h1-contact {
   padding: 15px 35px;
-  background: white;
+  background: none;
   z-index: 10;
   border-radius: 40px;
-  font-size: 30px;
+  color: white;
+  font-size: 20px;
   text-align: center;
-  // font-weight: bold;
+}
 
+.h1-contact:hover {
+  background: white;
+  color: #272727;
+}
 
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+#dux-logo {
+  height: 100%;
+  fill: white;
+}
+
+.dux-logo-child {
+  height: 100%;
+}
+
+.container-button {
+  text-align: center;
+  margin-bottom: 20px;
 }
