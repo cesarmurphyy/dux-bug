@@ -13,23 +13,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-<<<<<<< HEAD
-    "/ecommerce": [
-=======
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/appdev": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/webdev": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/": [
->>>>>>> 95bc9c9ad80b7530215cb381a0ef1aaaa886b595
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
