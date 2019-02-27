@@ -41,7 +41,7 @@ const BaseLayout = props => {
                         style={{
                           height: '75px',
                           paddingBottom: '10px',
-                          color: 'white'
+                          fill: 'white'
                         }}
                       />
                     </a>
