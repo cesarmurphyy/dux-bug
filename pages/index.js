@@ -5,6 +5,8 @@ import { Button, Container, Row, Col } from 'reactstrap';
 import ContentContainer from '../components/shared/ContentContainer';
 import ContentContainer2 from '../components/shared/ContentContainer2';
 import ContactContainer from '../components/shared/ContactContainer';
+import AnimatedLogo from '../components/shared/AnimatedLogo';
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -16,11 +18,11 @@ class Index extends React.Component {
     return (
       <BaseLayout className="cover" headerType="index">
         <div className="main-section">
-          <Container className="front-image">
+          <Container>
             <Row>
               <Col md="12">
                 <div className="logo-image-conatiner">
-                  <img id="logo-image" src="/static/images/main-logo.svg" />
+                  <AnimatedLogo />
                 </div>
               </Col>
             </Row>
@@ -56,6 +58,7 @@ class Index extends React.Component {
           title={'Web Development'}
           content={`From simple websites to real-time secure APIs, we are here to create fully custom solutions to take your online presence to the next level.`}
           style={{ background: 'white' }}
+          featureImage={'/static/images/laptop.png'}
         />
 
         <ContentContainer2
@@ -65,6 +68,7 @@ class Index extends React.Component {
           style={{ background: 'white' }}
           image={'/static/images/iphone-backing.jpeg'}
           overlay={'#0E86DF'}
+          featureImage={'/static/images/iphone.png'}
         />
 
         <ContentContainer
@@ -73,6 +77,7 @@ class Index extends React.Component {
           title={'E-Commerce'}
           content={`With over 20% of all purchases this year being made online, it is no secret that the future of sales is going digital. Using Shopify, our team can build your store to be as simple or complex as you desire, all while retaining the easy Shopify interface for your day to day management.`}
           overlay={'#272727'}
+          featureImage={'/static/images/shopify.svg'}
         />
 
         <ContentContainer2
@@ -87,7 +92,7 @@ class Index extends React.Component {
         <ContactContainer
           image={'/static/images/contact-backing.jpg'}
           overlay={'#272727'}
-          blurb={`We look forward to chatting with you, to see how we can help you build your next dream idea. If you have something in mind that is not listed, don’t hesitate to ask.
+          blurb={`We look forward to chatting with you about your next dream idea. If you have something in mind that is not listed, don’t hesitate to ask.
           `}
         />
 

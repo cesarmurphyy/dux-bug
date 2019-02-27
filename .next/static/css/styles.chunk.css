@@ -43,28 +43,120 @@ p {
   min-height: 100vh;
   min-width: 100vw;
   margin-top: 0;
-  position: relative; }
+  position: absolute; }
 
 .main-section {
   background-image: url(/static/images/main-background.jpeg);
   width: 100%;
-  height: 90%;
+  height: 90vh;
   position: relative;
   top: 95px; }
+  .main-section #logo-image {
+    stroke: white;
+    animation: fill 2.8s ease forwards 4s;
+    position: absolute;
+    left: 50%;
+    top: 40vh;
+    transform: translate(-50%, -50%);
+    fill: transparent;
+    width: 55%; }
+  .main-section .fade-container {
+    z-index: 10;
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0), white);
+    height: 200px;
+    bottom: 0;
+    width: 100%; }
 
-.front-image {
-  padding-top: 50px;
-  padding-bottom: 50px; }
+@keyframes move {
+  from {
+    transform: translate(0, 200px); }
+  to {
+    transform: translate(0, 0);
+    stroke: white; } }
 
-#logo-image {
-  display: block;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px; }
-  @media screen and (max-width: 768px) {
-    #logo-image {
-      height: 250px; } }
+@keyframes fill {
+  from {
+    fill: transparent; }
+  to {
+    fill: white; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0; } }
+
+#logo-image path:nth-child(1) {
+  stroke: none;
+  animation: fadein 2.8s ease forwards 4s; }
+
+#logo-image path:nth-child(2) {
+  stroke: none;
+  animation: fadein 2.8s ease forwards 4s; }
+
+#logo-image path:nth-child(3) {
+  stroke-dasharray: 280px;
+  stroke-dashoffset: 280px;
+  animation: line-anim 1.8s ease forwards 1s; }
+
+#logo-image path:nth-child(4) {
+  stroke-dasharray: 330px;
+  stroke-dashoffset: 330px;
+  animation: line-anim 2.5s ease forwards 1s; }
+
+#logo-image path:nth-child(5) {
+  stroke-dasharray: 315px;
+  stroke-dashoffset: 315px;
+  animation: line-anim 4s ease forwards 1s; }
+
+#logo-image path:nth-child(6) {
+  stroke: transparent;
+  animation: move 1s ease forwards 4s; }
+
+#logo-image path:nth-child(7) {
+  stroke: transparent;
+  animation: move 1.2s ease forwards 4s; }
+
+#logo-image path:nth-child(8) {
+  stroke: transparent;
+  animation: move 1.4s ease forwards 4s; }
+
+#logo-image path:nth-child(9) {
+  stroke: transparent;
+  animation: move 1.6s ease forwards 4s; }
+
+#logo-image path:nth-child(10) {
+  stroke: transparent;
+  animation: move 1.8s ease forwards 4s; }
+
+#logo-image path:nth-child(11) {
+  stroke: transparent;
+  animation: move 2s ease forwards 4s; }
+
+#logo-image path:nth-child(12) {
+  stroke: transparent;
+  animation: move 2.2s ease forwards 4s; }
+
+#logo-image path:nth-child(13) {
+  stroke: transparent;
+  animation: move 2.4s ease forwards 4s; }
+
+#logo-image path:nth-child(14) {
+  stroke: transparent;
+  animation: move 2.6s ease forwards 4s; }
+
+#logo-image path:nth-child(15) {
+  stroke: transparent;
+  animation: move 2.8s ease forwards 4s; }
+
+#logo-image path:nth-child(16) {
+  stroke: transparent;
+  animation: move 3s ease forwards 4s; }
 
 .logo-text-image {
   display: block;
@@ -77,10 +169,6 @@ p {
   font-size: 50px;
   font-weight: bold;
   text-align: center; }
-
-.fade-container {
-  background: linear-gradient(rgba(0, 0, 0, 0), white);
-  height: 150px; }
 
 .hero-section {
   perspective: 1000px;
@@ -166,11 +254,19 @@ p {
   font-weight: bold; }
 
 .display-image {
-  padding-top: 10px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin: 20px; }
+  position: relative;
+  height: 100%; }
+
+.display-image-inner {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  left: 50%;
+  top: 50%;
+  padding: 30px;
+  transform: translate(-50%, -50%); }
 
 .large-text {
   text-align: center;
@@ -197,7 +293,8 @@ p {
   background: no-repeat center center;
   width: 100%;
   position: relative;
-  display: flex; }
+  display: flex;
+  height: 100%; }
 
 .container-overlay {
   position: absolute;

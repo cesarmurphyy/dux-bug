@@ -38,7 +38,7 @@ class ContactContainer extends React.Component {
                     className="contact-image"
                     src="/static/images/Dux_logo1.svg"
                   />
-                  <h4>{this.props.blurb}</h4>
+                  <h4 className="h1-covered">{this.props.blurb}</h4>
                 </div>
                 <button className="h1-contact">contact us</button>
               </Col>

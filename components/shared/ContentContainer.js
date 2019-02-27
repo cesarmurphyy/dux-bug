@@ -33,7 +33,9 @@ class ContentContainer extends React.Component {
           <Container>
             <Row>
               <Col md="6">
-                <img src={this.props.featureImage} />
+                <div className="display-image">
+                  <img className="display-image-inner" src={this.props.featureImage} />
+                </div>
               </Col>
               <Col md="6">
                 <h1 className="container-inner">{this.props.title}</h1>

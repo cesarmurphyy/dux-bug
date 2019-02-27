@@ -136,11 +136,124 @@ var BaseLayout = function BaseLayout(props) {
     className: "jsx-2212675550" + " " + "copyright text-muted"
   }, "Copyright \xA9 Dux Development 2019"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "2212675550",
-    css: "@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jZXNhcm11cnBoeS9kdXgvd2Vic2l0ZS9jb21wb25lbnRzL2xheW91dHMvQmFzZUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1RVcsQUFFbUYiLCJmaWxlIjoiL1VzZXJzL2Nlc2FybXVycGh5L2R1eC93ZWJzaXRlL2NvbXBvbmVudHMvbGF5b3V0cy9CYXNlTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi4vc2hhcmVkL0hlYWRlcic7XG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuaW1wb3J0IHsgQ29udGFpbmVyLCBSb3cgfSBmcm9tICdyZWFjdHN0cmFwJztcbmltcG9ydCBTY3JvbGxhYmxlQW5jaG9yIGZyb20gJ3JlYWN0LXNjcm9sbGFibGUtYW5jaG9yJztcbmltcG9ydCB7IGNvbmZpZ3VyZUFuY2hvcnMgfSBmcm9tICdyZWFjdC1zY3JvbGxhYmxlLWFuY2hvcic7XG5cbmNvbnN0IEJhc2VMYXlvdXQgPSBwcm9wcyA9PiB7XG4gIGNvbnN0IHsgY2xhc3NOYW1lLCBjaGlsZHJlbiwgdGl0bGUgfSA9IHByb3BzO1xuICBjb25zdCBoZWFkZXJUeXBlID0gcHJvcHMuaGVhZGVyVHlwZSB8fCAnZGVmYXVsdCc7XG5cbiAgY29uZmlndXJlQW5jaG9ycyh7IHNjcm9sbER1cmF0aW9uOiA4MDAgfSk7XG5cbiAgcmV0dXJuIChcbiAgICA8UmVhY3QuRnJhZ21lbnQ+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPnt0aXRsZX08L3RpdGxlPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJodHRwczovL3VzZS5mb250YXdlc29tZS5jb20vcmVsZWFzZXMvdjUuNy4yL2Nzcy9hbGwuY3NzXCJcbiAgICAgICAgICBpbnRlZ3JpdHk9XCJzaGEzODQtZm5tT0NxYlRsV0lsajhMeVRqbzdtT1VTdGpzS0M0cE9wUWJxeWk3UnJoTjd1ZGk5UndoS2tNSHB2TGJIRzlTclwiXG4gICAgICAgICAgY3Jvc3NvcmlnaW49XCJhbm9ueW1vdXNcIlxuICAgICAgICAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJsYXlvdXQtY29udGFpbmVyXCI+XG4gICAgICAgIDxTY3JvbGxhYmxlQW5jaG9yIGlkPXsndXBUb3AnfT5cbiAgICAgICAgICA8SGVhZGVyIGNsYXNzTmFtZT17YHBvcnQtbmF2LSR7aGVhZGVyVHlwZX1gfSAvPlxuICAgICAgICA8L1Njcm9sbGFibGVBbmNob3I+XG4gICAgICAgIDxtYWluIGNsYXNzTmFtZT17YGNvdmVyICR7Y2xhc3NOYW1lfWB9PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwid3JhcHBlclwiPntjaGlsZHJlbn08L2Rpdj5cbiAgICAgICAgPC9tYWluPlxuICAgICAgICA8Zm9vdGVyPlxuICAgICAgICAgIDxDb250YWluZXI+XG4gICAgICAgICAgICA8Um93PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy04IGNvbC1tZC0xMCBteC1hdXRvXCI+XG4gICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT1cImxpc3QtaW5saW5lIHRleHQtY2VudGVyXCI+XG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwibGlzdC1pbmxpbmUtaXRlbVwiPlxuICAgICAgICAgICAgICAgICAgICA8YSBocmVmPVwiI1wiPlxuICAgICAgICAgICAgICAgICAgICAgIDxpbWdcbiAgICAgICAgICAgICAgICAgICAgICAgIHNyYz1cIi9zdGF0aWMvaW1hZ2VzL0R1eF9sb2dvMi5zdmdcIlxuICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAnNzVweCcsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmdCb3R0b206ICcxMHB4JyxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZmlsbDogJ3doaXRlJ1xuICAgICAgICAgICAgICAgICAgICAgICAgfX1cbiAgICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2xpPlxuICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT1cImxpc3QtaW5saW5lLWl0ZW1cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vZHV4ZGV2ZWxvcG1lbnQvXCI+XG4gICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZmEtc3RhY2sgZmEtbGdcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImZhYiBmYS1pbnN0YWdyYW0gZmEtc3RhY2stMnggZmEtaW52ZXJzZVwiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2xpPlxuICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT1cImxpc3QtaW5saW5lLWl0ZW1cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIiN1cFRvcFwiPlxuICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImZhLXN0YWNrIGZhLWxnXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJmYXMgZmEtYW5nbGUtZG91YmxlLXVwIGZhLXN0YWNrLTJ4IGZhLWludmVyc2VcIiAvPlxuICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgPC9saT5cbiAgICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImNvcHlyaWdodCB0ZXh0LW11dGVkXCI+XG4gICAgICAgICAgICAgICAgICBDb3B5cmlnaHQgJmNvcHk7IER1eCBEZXZlbG9wbWVudCAyMDE5XG4gICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvUm93PlxuICAgICAgICAgIDwvQ29udGFpbmVyPlxuICAgICAgICA8L2Zvb3Rlcj5cbiAgICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAgICB7YFxuICAgICAgICAgICAgQGltcG9ydCB1cmwoJ2h0dHBzOi8vdXNlLmZvbnRhd2Vzb21lLmNvbS9yZWxlYXNlcy92NS41LjAvY3NzL2FsbC5jc3MnKTtcbiAgICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuICAgICAgPC9kaXY+XG4gICAgPC9SZWFjdC5GcmFnbWVudD5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEJhc2VMYXlvdXQ7XG4iXX0= */\n/*@ sourceURL=/Users/cesarmurphy/dux/website/components/layouts/BaseLayout.js */"
+    css: "@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qb3NocGF1bGluZS9kdXgvd2Vic2l0ZS9jb21wb25lbnRzL2xheW91dHMvQmFzZUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1RVcsQUFFbUYiLCJmaWxlIjoiL1VzZXJzL2pvc2hwYXVsaW5lL2R1eC93ZWJzaXRlL2NvbXBvbmVudHMvbGF5b3V0cy9CYXNlTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi4vc2hhcmVkL0hlYWRlcic7XG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuaW1wb3J0IHsgQ29udGFpbmVyLCBSb3cgfSBmcm9tICdyZWFjdHN0cmFwJztcbmltcG9ydCBTY3JvbGxhYmxlQW5jaG9yIGZyb20gJ3JlYWN0LXNjcm9sbGFibGUtYW5jaG9yJztcbmltcG9ydCB7IGNvbmZpZ3VyZUFuY2hvcnMgfSBmcm9tICdyZWFjdC1zY3JvbGxhYmxlLWFuY2hvcic7XG5cbmNvbnN0IEJhc2VMYXlvdXQgPSBwcm9wcyA9PiB7XG4gIGNvbnN0IHsgY2xhc3NOYW1lLCBjaGlsZHJlbiwgdGl0bGUgfSA9IHByb3BzO1xuICBjb25zdCBoZWFkZXJUeXBlID0gcHJvcHMuaGVhZGVyVHlwZSB8fCAnZGVmYXVsdCc7XG5cbiAgY29uZmlndXJlQW5jaG9ycyh7IHNjcm9sbER1cmF0aW9uOiA4MDAgfSk7XG5cbiAgcmV0dXJuIChcbiAgICA8UmVhY3QuRnJhZ21lbnQ+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPnt0aXRsZX08L3RpdGxlPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJodHRwczovL3VzZS5mb250YXdlc29tZS5jb20vcmVsZWFzZXMvdjUuNy4yL2Nzcy9hbGwuY3NzXCJcbiAgICAgICAgICBpbnRlZ3JpdHk9XCJzaGEzODQtZm5tT0NxYlRsV0lsajhMeVRqbzdtT1VTdGpzS0M0cE9wUWJxeWk3UnJoTjd1ZGk5UndoS2tNSHB2TGJIRzlTclwiXG4gICAgICAgICAgY3Jvc3NvcmlnaW49XCJhbm9ueW1vdXNcIlxuICAgICAgICAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJsYXlvdXQtY29udGFpbmVyXCI+XG4gICAgICAgIDxTY3JvbGxhYmxlQW5jaG9yIGlkPXsndXBUb3AnfT5cbiAgICAgICAgICA8SGVhZGVyIGNsYXNzTmFtZT17YHBvcnQtbmF2LSR7aGVhZGVyVHlwZX1gfSAvPlxuICAgICAgICA8L1Njcm9sbGFibGVBbmNob3I+XG4gICAgICAgIDxtYWluIGNsYXNzTmFtZT17YGNvdmVyICR7Y2xhc3NOYW1lfWB9PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwid3JhcHBlclwiPntjaGlsZHJlbn08L2Rpdj5cbiAgICAgICAgPC9tYWluPlxuICAgICAgICA8Zm9vdGVyPlxuICAgICAgICAgIDxDb250YWluZXI+XG4gICAgICAgICAgICA8Um93PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy04IGNvbC1tZC0xMCBteC1hdXRvXCI+XG4gICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT1cImxpc3QtaW5saW5lIHRleHQtY2VudGVyXCI+XG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwibGlzdC1pbmxpbmUtaXRlbVwiPlxuICAgICAgICAgICAgICAgICAgICA8YSBocmVmPVwiI1wiPlxuICAgICAgICAgICAgICAgICAgICAgIDxpbWdcbiAgICAgICAgICAgICAgICAgICAgICAgIHNyYz1cIi9zdGF0aWMvaW1hZ2VzL0R1eF9sb2dvMi5zdmdcIlxuICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAnNzVweCcsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmdCb3R0b206ICcxMHB4JyxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZmlsbDogJ3doaXRlJ1xuICAgICAgICAgICAgICAgICAgICAgICAgfX1cbiAgICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2xpPlxuICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT1cImxpc3QtaW5saW5lLWl0ZW1cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vZHV4ZGV2ZWxvcG1lbnQvXCI+XG4gICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZmEtc3RhY2sgZmEtbGdcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImZhYiBmYS1pbnN0YWdyYW0gZmEtc3RhY2stMnggZmEtaW52ZXJzZVwiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2xpPlxuICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT1cImxpc3QtaW5saW5lLWl0ZW1cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIiN1cFRvcFwiPlxuICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImZhLXN0YWNrIGZhLWxnXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJmYXMgZmEtYW5nbGUtZG91YmxlLXVwIGZhLXN0YWNrLTJ4IGZhLWludmVyc2VcIiAvPlxuICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgPC9saT5cbiAgICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImNvcHlyaWdodCB0ZXh0LW11dGVkXCI+XG4gICAgICAgICAgICAgICAgICBDb3B5cmlnaHQgJmNvcHk7IER1eCBEZXZlbG9wbWVudCAyMDE5XG4gICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvUm93PlxuICAgICAgICAgIDwvQ29udGFpbmVyPlxuICAgICAgICA8L2Zvb3Rlcj5cbiAgICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAgICB7YFxuICAgICAgICAgICAgQGltcG9ydCB1cmwoJ2h0dHBzOi8vdXNlLmZvbnRhd2Vzb21lLmNvbS9yZWxlYXNlcy92NS41LjAvY3NzL2FsbC5jc3MnKTtcbiAgICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuICAgICAgPC9kaXY+XG4gICAgPC9SZWFjdC5GcmFnbWVudD5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEJhc2VMYXlvdXQ7XG4iXX0= */\n/*@ sourceURL=/Users/joshpauline/dux/website/components/layouts/BaseLayout.js */"
   })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BaseLayout);
+
+/***/ }),
+
+/***/ "./components/shared/AnimatedLogo.js":
+/*!*******************************************!*\
+  !*** ./components/shared/AnimatedLogo.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var AnimatedLogo =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(AnimatedLogo, _React$Component);
+
+  function AnimatedLogo() {
+    _classCallCheck(this, AnimatedLogo);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(AnimatedLogo).apply(this, arguments));
+  }
+
+  _createClass(AnimatedLogo, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+        viewBox: "0 0 292.07 180",
+        id: "logo-image"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+        id: "Layer_2",
+        "data-name": "Layer 2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+        id: "Layer_1-2",
+        "data-name": "Layer 1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M18,84.73v73.54l-9-9V93.73l9-9M27,63,0,90v63l27,27V63Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M45,22l9,9,.06,118.27-9.05,9V22M35.94,180,63,153V27L36,0"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M72,35.92h32.77A47.87,47.87,0,0,1,127.31,41,37.41,37.41,0,0,1,142.5,55.3a40.26,40.26,0,0,1,5.4,20.87,40.3,40.3,0,0,1-5.4,20.88,37.41,37.41,0,0,1-15.19,14.26,47.87,47.87,0,0,1-22.54,5.11H72Zm32.31,73.14a39,39,0,0,0,18.52-4.19,30.54,30.54,0,0,0,12.31-11.62,33,33,0,0,0,4.37-17.08,33,33,0,0,0-4.37-17.07,30.54,30.54,0,0,0-12.31-11.62,39,39,0,0,0-18.52-4.2H80.51v65.78Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M219.77,55.93v60.49H212v-11A22.38,22.38,0,0,1,203.1,114a26.67,26.67,0,0,1-12.88,3q-11.85,0-18.69-6.61T164.69,91V55.93h8.16V90.2q0,9.55,4.72,14.49t13.45,5q9.55,0,15.07-5.81t5.52-16.16V55.93Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M281.18,116.42,262,91.12l-19.32,25.3h-9.2l23.92-31L234.61,55.93h9.2L262,79.62l18.17-23.69h9L266.35,85.38l24.15,31Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M72,127.05h6.62a10,10,0,0,1,4.82,1.12,8.23,8.23,0,0,1,3.25,3.13,9.31,9.31,0,0,1,0,9,8.2,8.2,0,0,1-3.25,3.12,10,10,0,0,1-4.82,1.13H72Zm6.57,17A9.66,9.66,0,0,0,83.19,143a7.59,7.59,0,0,0,3.07-2.95,8.87,8.87,0,0,0,0-8.52,7.59,7.59,0,0,0-3.07-2.95,9.67,9.67,0,0,0-4.62-1.07H72.5v16.55Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M108.27,138.07H96.77a6.28,6.28,0,0,0,.78,3.14,5.58,5.58,0,0,0,2.14,2.17,6.41,6.41,0,0,0,5.55.26,4.84,4.84,0,0,0,1.91-1.49l.35.35a5.64,5.64,0,0,1-2.1,1.57,6.85,6.85,0,0,1-6-.28,6,6,0,0,1-2.3-2.34,6.81,6.81,0,0,1-.84-3.38,7.23,7.23,0,0,1,.77-3.36,5.85,5.85,0,0,1,2.14-2.32,6,6,0,0,1,6.11,0,5.79,5.79,0,0,1,2.17,2.27,6.87,6.87,0,0,1,.78,3.3Zm-8.72-5.32a5.38,5.38,0,0,0-2,2,6.22,6.22,0,0,0-.82,2.85h11a6.11,6.11,0,0,0-.83-2.85,5.48,5.48,0,0,0-2-2,5.45,5.45,0,0,0-5.45,0Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M127.55,131.62l-6,12.93h-.5l-5.95-12.93h.57L121.35,144,127,131.62Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M146.27,138.07h-11.5a6.28,6.28,0,0,0,.78,3.14,5.58,5.58,0,0,0,2.14,2.17,6.41,6.41,0,0,0,5.55.26,4.84,4.84,0,0,0,1.91-1.49l.35.35a5.64,5.64,0,0,1-2.1,1.57,6.85,6.85,0,0,1-6-.28,6,6,0,0,1-2.3-2.34,6.81,6.81,0,0,1-.84-3.38,7.23,7.23,0,0,1,.77-3.36,5.85,5.85,0,0,1,2.14-2.32,6,6,0,0,1,6.11,0,5.79,5.79,0,0,1,2.17,2.27,6.87,6.87,0,0,1,.78,3.3Zm-8.72-5.32a5.38,5.38,0,0,0-2,2,6.1,6.1,0,0,0-.82,2.85h11a6.11,6.11,0,0,0-.83-2.85,5.48,5.48,0,0,0-2-2,5.45,5.45,0,0,0-5.45,0Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M156.12,126h.5v18.55h-.5Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M169.54,143.79a5.89,5.89,0,0,1-2.25-2.34,6.9,6.9,0,0,1-.82-3.38,6.8,6.8,0,0,1,.82-3.36,5.91,5.91,0,0,1,2.25-2.32,6.55,6.55,0,0,1,6.42,0,5.91,5.91,0,0,1,2.25,2.32,6.9,6.9,0,0,1,.81,3.36,7,7,0,0,1-.81,3.38,5.89,5.89,0,0,1-2.25,2.34,6.62,6.62,0,0,1-6.42,0Zm6.16-.41a5.48,5.48,0,0,0,2.07-2.17,6.93,6.93,0,0,0,0-6.27,5.36,5.36,0,0,0-2.07-2.15,6,6,0,0,0-5.9,0,5.38,5.38,0,0,0-2.08,2.15,6.93,6.93,0,0,0,0,6.27,5.5,5.5,0,0,0,2.08,2.17,6,6,0,0,0,5.9,0Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M198.34,132.39a6,6,0,0,1,2.26,2.33,6.9,6.9,0,0,1,.82,3.38,6.8,6.8,0,0,1-.82,3.36,6.1,6.1,0,0,1-2.26,2.33,6.22,6.22,0,0,1-3.19.83,6.09,6.09,0,0,1-3.56-1.08,5.88,5.88,0,0,1-2.22-2.92v8.78h-.5V131.62h.5v3.95a5.9,5.9,0,0,1,2.2-2.93,6.07,6.07,0,0,1,3.58-1.09A6.23,6.23,0,0,1,198.34,132.39Zm-.24,11a5.42,5.42,0,0,0,2.07-2.15,6.95,6.95,0,0,0,0-6.28,5.52,5.52,0,0,0-2.07-2.16,6,6,0,0,0-5.9,0,5.47,5.47,0,0,0-2.08,2.16,6.95,6.95,0,0,0,0,6.28,5.38,5.38,0,0,0,2.08,2.15,6.11,6.11,0,0,0,5.9,0Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M231,132.94a5.5,5.5,0,0,1,1.33,4v7.63h-.5v-7.63a5.14,5.14,0,0,0-1.17-3.63,4.33,4.33,0,0,0-3.33-1.27,5.06,5.06,0,0,0-3.87,1.52,5.58,5.58,0,0,0-1.43,4v7h-.5v-7.63a5.14,5.14,0,0,0-1.17-3.63,4.34,4.34,0,0,0-3.33-1.27,5.06,5.06,0,0,0-3.87,1.52,5.58,5.58,0,0,0-1.43,4v7h-.5V131.62h.5v3.43a5.08,5.08,0,0,1,1.95-2.58,5.89,5.89,0,0,1,3.33-.92,5.16,5.16,0,0,1,3.25,1A4.6,4.6,0,0,1,222,135.4a5.08,5.08,0,0,1,1.91-2.81,5.73,5.73,0,0,1,3.49-1A4.88,4.88,0,0,1,231,132.94Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M254.05,138.07h-11.5a6.38,6.38,0,0,0,.77,3.14,5.58,5.58,0,0,0,2.14,2.17,6.41,6.41,0,0,0,5.55.26,4.77,4.77,0,0,0,1.91-1.49l.35.35a5.48,5.48,0,0,1-2.1,1.57,6.42,6.42,0,0,1-2.65.55,6.54,6.54,0,0,1-3.31-.83,6.09,6.09,0,0,1-2.3-2.34,6.81,6.81,0,0,1-.84-3.38,7.12,7.12,0,0,1,.78-3.36,5.78,5.78,0,0,1,2.14-2.32,5.67,5.67,0,0,1,3.06-.84,5.85,5.85,0,0,1,5.21,3.1,6.77,6.77,0,0,1,.79,3.3Zm-8.73-5.32a5.45,5.45,0,0,0-2,2,6.21,6.21,0,0,0-.81,2.85h11a6.1,6.1,0,0,0-.82-2.85,5.5,5.5,0,0,0-2-2,5.25,5.25,0,0,0-2.72-.73A5.31,5.31,0,0,0,245.32,132.75Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M273.62,132.94a5.39,5.39,0,0,1,1.38,4v7.63h-.5v-7.63a5.07,5.07,0,0,0-1.21-3.63,4.57,4.57,0,0,0-3.44-1.27,5.29,5.29,0,0,0-4,1.52,5.51,5.51,0,0,0-1.46,4v7h-.5V131.62h.5v3.45a5.06,5.06,0,0,1,2-2.58,6,6,0,0,1,3.42-.94A5.08,5.08,0,0,1,273.62,132.94Z"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        className: "cls-1",
+        d: "M292.07,143.7a2.7,2.7,0,0,1-1.11.69,4.25,4.25,0,0,1-1.41.23,3,3,0,0,1-2.31-.86,3.18,3.18,0,0,1-.82-2.31V132.1h-2.5v-.48h2.5V128.8h.5v2.82h4.38v.48h-4.38v9.22a3,3,0,0,0,.68,2.1,2.54,2.54,0,0,0,2,.73,3,3,0,0,0,2.15-.8Z"
+      })))));
+    }
+  }]);
+
+  return AnimatedLogo;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (AnimatedLogo);
 
 /***/ }),
 
@@ -217,7 +330,9 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "contact-image",
         src: "/static/images/Dux_logo1.svg"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.props.blurb)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "h1-covered"
+      }, this.props.blurb)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "h1-contact"
       }, "contact us"))))));
     }
@@ -299,9 +414,12 @@ function (_React$Component) {
         }
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
         md: "6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "display-image"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "display-image-inner",
         src: this.props.featureImage
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
         md: "6"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "container-inner"
@@ -391,9 +509,12 @@ function (_React$Component) {
         className: "container-inner"
       }, this.props.content)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
         md: "6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "display-image"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "display-image-inner",
         src: this.props.featureImage
-      }))))));
+      })))))));
     }
   }]);
 
@@ -8897,12 +9018,12 @@ module.exports = __webpack_require__(/*! ./dist/lib/router */ "./node_modules/ne
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_ea92b26618a5e8aa3a89 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_87199d8fc0875f6de062 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_ea92b26618a5e8aa3a89 */ "dll-reference dll_ea92b26618a5e8aa3a89"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_87199d8fc0875f6de062 */ "dll-reference dll_87199d8fc0875f6de062"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -12163,12 +12284,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_ea92b26618a5e8aa3a89 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_87199d8fc0875f6de062 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_ea92b26618a5e8aa3a89 */ "dll-reference dll_ea92b26618a5e8aa3a89"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_87199d8fc0875f6de062 */ "dll-reference dll_87199d8fc0875f6de062"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -12776,12 +12897,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_ea92b26618a5e8aa3a89 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_87199d8fc0875f6de062 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_ea92b26618a5e8aa3a89 */ "dll-reference dll_ea92b26618a5e8aa3a89"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_87199d8fc0875f6de062 */ "dll-reference dll_87199d8fc0875f6de062"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -13527,12 +13648,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_ea92b26618a5e8aa3a89 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_87199d8fc0875f6de062 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_ea92b26618a5e8aa3a89 */ "dll-reference dll_ea92b26618a5e8aa3a89"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_87199d8fc0875f6de062 */ "dll-reference dll_87199d8fc0875f6de062"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -18829,12 +18950,12 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_12__;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_ea92b26618a5e8aa3a89 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_87199d8fc0875f6de062 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_ea92b26618a5e8aa3a89 */ "dll-reference dll_ea92b26618a5e8aa3a89"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_87199d8fc0875f6de062 */ "dll-reference dll_87199d8fc0875f6de062"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -32069,12 +32190,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_ea92b26618a5e8aa3a89 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_87199d8fc0875f6de062 ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_ea92b26618a5e8aa3a89 */ "dll-reference dll_ea92b26618a5e8aa3a89"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_87199d8fc0875f6de062 */ "dll-reference dll_87199d8fc0875f6de062"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -32164,6 +32285,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_shared_ContentContainer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/shared/ContentContainer */ "./components/shared/ContentContainer.js");
 /* harmony import */ var _components_shared_ContentContainer2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/shared/ContentContainer2 */ "./components/shared/ContentContainer2.js");
 /* harmony import */ var _components_shared_ContactContainer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/shared/ContactContainer */ "./components/shared/ContactContainer.js");
+/* harmony import */ var _components_shared_AnimatedLogo__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/shared/AnimatedLogo */ "./components/shared/AnimatedLogo.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -32181,6 +32303,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -32213,16 +32336,11 @@ function (_React$Component) {
         headerType: "index"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "main-section"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
-        className: "front-image"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
         md: "12"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "logo-image-conatiner"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        id: "logo-image",
-        src: "/static/images/main-logo.svg"
-      }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_shared_AnimatedLogo__WEBPACK_IMPORTED_MODULE_7__["default"], null))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "fade-container"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "content-container",
@@ -32249,7 +32367,8 @@ function (_React$Component) {
         content: "From simple websites to real-time secure APIs, we are here to create fully custom solutions to take your online presence to the next level.",
         style: {
           background: 'white'
-        }
+        },
+        featureImage: '/static/images/laptop.png'
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_shared_ContentContainer2__WEBPACK_IMPORTED_MODULE_5__["default"], {
         font: 'white',
         title: 'iOS Apps',
@@ -32258,13 +32377,15 @@ function (_React$Component) {
           background: 'white'
         },
         image: '/static/images/iphone-backing.jpeg',
-        overlay: '#0E86DF'
+        overlay: '#0E86DF',
+        featureImage: '/static/images/iphone.png'
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_shared_ContentContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
         font: 'white',
         image: '/static/images/ecommerce-backing.jpeg',
         title: 'E-Commerce',
         content: "With over 20% of all purchases this year being made online, it is no secret that the future of sales is going digital. Using Shopify, our team can build your store to be as simple or complex as you desire, all while retaining the easy Shopify interface for your day to day management.",
-        overlay: '#272727'
+        overlay: '#272727',
+        featureImage: '/static/images/shopify.svg'
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_shared_ContentContainer2__WEBPACK_IMPORTED_MODULE_5__["default"], {
         font: 'white',
         title: 'Graphic Design',
@@ -32277,7 +32398,7 @@ function (_React$Component) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_shared_ContactContainer__WEBPACK_IMPORTED_MODULE_6__["default"], {
         image: '/static/images/contact-backing.jpg',
         overlay: '#272727',
-        blurb: "We look forward to chatting with you, to see how we can help you build your next dream idea. If you have something in mind that is not listed, don\u2019t hesitate to ask.\n          "
+        blurb: "We look forward to chatting with you about your next dream idea. If you have something in mind that is not listed, don\u2019t hesitate to ask.\n          "
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -32341,14 +32462,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_ea92b26618a5e8aa3a89":
+/***/ "dll-reference dll_87199d8fc0875f6de062":
 /*!*******************************************!*\
-  !*** external "dll_ea92b26618a5e8aa3a89" ***!
+  !*** external "dll_87199d8fc0875f6de062" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_ea92b26618a5e8aa3a89;
+module.exports = dll_87199d8fc0875f6de062;
 
 /***/ })
 
