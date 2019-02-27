@@ -914,13 +914,7 @@ function (_React$Component) {
         image: '/static/images/contact-backing.jpg',
         overlay: '#272727',
         blurb: "We look forward to chatting with you about your next dream idea. If you have something in mind that is not listed, don\u2019t hesitate to ask.\n          "
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "footer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-        md: "12"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "medium-script"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "eCommerce"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Graphic Design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Contact")))))));
+      }));
     }
   }]);
 

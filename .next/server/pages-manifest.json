@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"/_app":"static/development/pages/_app.js","/_error":"static/development/pages/_error.js","/_document":"static/development/pages/_document.js","/ecommerce":"static/development/pages/ecommerce.js"}
+=======
+{"/_app":"static/development/pages/_app.js","/_error":"static/development/pages/_error.js","/_document":"static/development/pages/_document.js","/index":"static/development/pages/index.js","/appdev":"static/development/pages/appdev.js","/webdev":"static/development/pages/webdev.js","/":"static/development/pages/index.js"}
+>>>>>>> 95bc9c9ad80b7530215cb381a0ef1aaaa886b595
