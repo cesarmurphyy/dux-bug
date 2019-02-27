@@ -7,7 +7,6 @@ import ContentContainer2 from '../components/shared/ContentContainer2';
 import ContactContainer from '../components/shared/ContactContainer';
 import AnimatedLogo from '../components/shared/AnimatedLogo';
 
-
 class Index extends React.Component {
   constructor(props) {
     super(props);
@@ -28,12 +27,10 @@ class Index extends React.Component {
             </Row>
           </Container>
           <div className="fade-container" />
+          <div className="fade-container-rad" />
         </div>
 
-        <div
-          className="content-container"
-          style={{ background: 'white', marginTop: '95px' }}
-        >
+        <div className="typed-container" style={{ background: 'white' }}>
           <Container>
             <Row>
               <Col md="12" className="self-typed">
@@ -61,15 +58,13 @@ class Index extends React.Component {
           featureImage={'/static/images/laptop.png'}
         />
 
-
-
         <ContentContainer2
           font={'white'}
           title={'iOS Apps'}
           content={`Whether it be the next big hit or a custom enterprise solution, we are here to provide a UX driven development service to turn your idea into a production ready app.`}
           style={{ background: 'white' }}
           image={'/static/images/iphone-backing.jpeg'}
-          overlay={'#0E86DF'}
+          overlay={'#25628b'}
           featureImage={'/static/images/iphone.png'}
         />
 
@@ -88,17 +83,16 @@ class Index extends React.Component {
           content={`From promotional banners and logos to advertising UIs, let us help you to bring your brand idea to life.`}
           style={{ background: 'white' }}
           image={'/static/images/graphic-design-backing.jpeg'}
-          overlay={'#0E86DF'}
+          overlay={'#25628b'}
         />
 
         <ContactContainer
+          font={'white'}
           image={'/static/images/contact-backing.jpg'}
           overlay={'#272727'}
           blurb={`We look forward to chatting with you about your next dream idea. If you have something in mind that is not listed, don’t hesitate to ask.
           `}
         />
-
-       
       </BaseLayout>
     );
   }

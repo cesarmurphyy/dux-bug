@@ -30,16 +30,20 @@ class ContentContainer extends React.Component {
             className="container-overlay"
             style={{ background: `${this.props.overlay}` }}
           />
-          <Container>
+          <Container className="super-container">
             <Row>
               <Col md="6">
                 <div className="display-image">
-                  <img className="display-image-inner" src={this.props.featureImage} />
+                  <img
+                    className="display-image-inner"
+                    src={this.props.featureImage}
+                  />
                 </div>
               </Col>
-              <Col md="6">
+              <Col md="6" className="container-button">
                 <h1 className="container-inner">{this.props.title}</h1>
                 <p className="container-inner">{this.props.content}</p>
+                <Button className="h1-contact">contact us</Button>
               </Col>
             </Row>
           </Container>

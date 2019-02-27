@@ -32,16 +32,18 @@ class ContactContainer extends React.Component {
           />
           <Container>
             <Row>
-              <Col md="12" className="container-inner">
-                <div>
-                  <img
-                    className="contact-image"
-                    src="/static/images/Dux_logo1.svg"
-                  />
-                  <h4 className="h1-covered">{this.props.blurb}</h4>
-                </div>
-                <button className="h1-contact">contact us</button>
-              </Col>
+              <div className="contact-container">
+                <Col md="6" className="container-inner">
+                  <div>
+                    <img
+                      className="contact-image"
+                      src="/static/images/Dux_logo1.svg"
+                    />
+                    <p className="container-inner">{this.props.blurb}</p>
+                  </div>
+                  <Button className="h1-contact">contact us</Button>
+                </Col>
+              </div>
             </Row>
           </Container>
         </div>
