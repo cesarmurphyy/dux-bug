@@ -6,7 +6,7 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 
 const BaseLayout = props => {
-  const { className, children } = props;
+  const { className, children, title } = props;
   const headerType = props.headerType || 'default';
 
   configureAnchors({ scrollDuration: 800 });
@@ -14,7 +14,7 @@ const BaseLayout = props => {
   return (
     <React.Fragment>
       <Head>
-        <title>Dux Development</title>
+        <title>{title}</title>
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
