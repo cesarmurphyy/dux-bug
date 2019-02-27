@@ -17,7 +17,11 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <BaseLayout headerType={'landing'} className="blog-listing-page">
+      <BaseLayout
+        headerType={'landing'}
+        className="blog-listing-page"
+        title="Dux | Contact Us"
+      >
         <div
           className="head"
           style={{ backgroundImage: "url('/static/images/code.jpg')" }}

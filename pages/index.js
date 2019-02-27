@@ -15,7 +15,7 @@ class Index extends React.Component {
 
   render() {
     return (
-      <BaseLayout className="cover" headerType="index">
+      <BaseLayout className="cover" headerType="index" title="Dux Development">
         <div className="main-section">
           <Container>
             <Row>

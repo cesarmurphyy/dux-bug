@@ -12,7 +12,11 @@ import ContactContainer from '../components/shared/ContactContainer';
 class GraphicDesign extends React.Component {
   render() {
     return (
-      <BaseLayout headerType={'landing'} className="blog-listing-page">
+      <BaseLayout
+        headerType={'landing'}
+        className="blog-listing-page"
+        title="Dux | iOS Development"
+      >
         <div
           className="masthead"
           style={{
@@ -50,8 +54,6 @@ class GraphicDesign extends React.Component {
           overlay={'#71238C'}
           blurb={`It is time to take your share of the $80+ billion dollar industry.`}
         />
-
-       
       </BaseLayout>
     );
   }

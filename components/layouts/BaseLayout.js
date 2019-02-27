@@ -16,6 +16,22 @@ const BaseLayout = props => {
     <React.Fragment>
       <Head>
         <title>{title}</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:url" content="http://localhost:3000" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:description"
+          content="shorter description than above"
+        />
+
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="/static/images/Dux_logo1.svg"
+        />
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
