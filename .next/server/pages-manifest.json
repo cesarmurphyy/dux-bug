@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"/_app":"static/development/pages/_app.js","/_error":"static/development/pages/_error.js","/_document":"static/development/pages/_document.js","/index":"static/development/pages/index.js","/":"static/development/pages/index.js"}
-=======
-{"/_app":"static/development/pages/_app.js","/_error":"static/development/pages/_error.js","/_document":"static/development/pages/_document.js","/index":"static/development/pages/index.js","/webdev":"static/development/pages/webdev.js","/":"static/development/pages/index.js"}
->>>>>>> bebe239e66e71140607f80be2808c17a084444e7
