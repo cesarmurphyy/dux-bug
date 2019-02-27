@@ -53,11 +53,6 @@ class Contact extends React.Component {
                   </span>
                 </div>
                 <ContactForm />
-                <ContactForm />
-                <ContactForm />
-                <ContactForm />
-                <ContactForm />
-                <ContactForm />
               </div>
             </div>
           </Container>

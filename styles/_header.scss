@@ -1,5 +1,4 @@
 // HEADER
-
 .port-navbar.port-nav-base {
   padding: 10px 20px;
 
@@ -28,10 +27,10 @@
       // text-transform: capitalize;
 
       &.active {
-        color: #dba919;
+        color: #1ea2ae;
       }
       &:hover {
-        color: #dba919;
+        color: #1ea2ae;
       }
     }
 
@@ -43,12 +42,12 @@
       // text-transform: capitalize;
 
       &.active {
-        color: #dba919;
+        color: #1ea2ae;
       }
 
       &:hover,
       &:focus {
-        color: #dba919;
+        color: #1ea2ae;
       }
     }
   }
@@ -61,4 +60,8 @@
 
 #border-color {
   border-color: rgba(0, 0, 0, 0);
+}
+
+.menu-open {
+  transition: 1s;
 }
