@@ -17,6 +17,18 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/graphic": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/contact": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/ecommerce": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

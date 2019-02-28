@@ -27,11 +27,7 @@ const BaseLayout = props => {
           content="shorter description than above"
         />
 
-        <link
-          rel="icon"
-          type="image/svg+xml"
-          href="/static/images/Dux_logo1.svg"
-        />
+        <link rel="icon" type="image/ico" href="/static/images/favicon.ico" />
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
