@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Container, Row, Col } from 'reactstrap';
+import Link from 'next/link';
 
 class ContactContainer extends React.Component {
   constructor(props) {
@@ -41,7 +42,9 @@ class ContactContainer extends React.Component {
                     />
                     <p className="container-inner">{this.props.blurb}</p>
                   </div>
-                  <Button className="h1-contact">contact us</Button>
+                  <Link href="/contact">
+                    <Button className="h1-contact">contact us</Button>
+                  </Link>
                 </Col>
               </div>
             </Row>
