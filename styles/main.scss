@@ -44,3 +44,38 @@ body {
     }
   }
 }
+
+footer {
+  position: relative;
+  flex-shrink: 0;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 200px;
+
+  overflow: hidden;
+  background: #272727;
+  padding: 50px 0 65px;
+  .list-inline {
+    margin: 0;
+    padding: 0;
+  }
+  .copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+.footer-icon-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.super-container {
+  display: flex;
+  vertical-align: middle;
+  padding: 20px 0 20px 0;
+}

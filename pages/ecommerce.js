@@ -10,7 +10,11 @@ import ContactContainer from '../components/shared/ContactContainer';
 class Ecommerce extends React.Component {
   render() {
     return (
-      <BaseLayout headerType={'landing'} className="blog-listing-page">
+      <BaseLayout
+        headerType={'landing'}
+        className="blog-listing-page"
+        title="Dux | E-Commerce Solutions"
+      >
         <div
           className="masthead"
           style={{
@@ -47,21 +51,6 @@ class Ecommerce extends React.Component {
           overlay={'#96bf48'}
           blurb={`Our service does not end with your finished product. Once delivered, we are happy to provide training as needed or options to manage the platform on your behalf.`}
         />
-
-        <div className="footer">
-          <Container>
-            <Row>
-              <Col md="12">
-                <ul className="medium-script">
-                  <li>Home</li>
-                  <li>eCommerce</li>
-                  <li>Graphic Design</li>
-                  <li>Contact</li>
-                </ul>
-              </Col>
-            </Row>
-          </Container>
-        </div>
       </BaseLayout>
     );
   }

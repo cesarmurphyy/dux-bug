@@ -12,7 +12,11 @@ import ContactContainer from '../components/shared/ContactContainer';
 class GraphicDesign extends React.Component {
   render() {
     return (
-      <BaseLayout headerType={'landing'} className="blog-listing-page">
+      <BaseLayout
+        headerType={'landing'}
+        className="blog-listing-page"
+        title="Dux | Web Development"
+      >
         <div
           className="masthead"
           style={{
@@ -51,21 +55,6 @@ class GraphicDesign extends React.Component {
           overlay={'#0093FF'}
           blurb={`Ready to take your brand to the next level? Get in touch with us!`}
         />
-
-        <div className="footer">
-          <Container>
-            <Row>
-              <Col md="12">
-                <ul className="medium-script">
-                  <li>Home</li>
-                  <li>eCommerce</li>
-                  <li>Graphic Design</li>
-                  <li>Contact</li>
-                </ul>
-              </Col>
-            </Row>
-          </Container>
-        </div>
       </BaseLayout>
     );
   }

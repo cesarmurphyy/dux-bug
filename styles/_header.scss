@@ -2,9 +2,18 @@
 
 .port-navbar.port-nav-base {
   padding: 10px 20px;
-
-  width: 100%;
+  margin-top: 20px;
+  position: absolute;
+  transform: translate(-50%, 0);
+  left: 50%;
+  width: 80%;
   z-index: 1;
+
+  @media screen and(max-width: 756px) {
+    margin-top: 0px;
+    width: 100%;
+    left: 50%;
+  }
   // padding: 15px;
 
   background: white;
@@ -25,14 +34,13 @@
       font-weight: bold;
       letter-spacing: 0.8px;
       font-size: 18px;
-      text-transform: capitalize;
+      // text-transform: capitalize;
 
       &.active {
-        color: #dba919;
+        color: #1ea2ae;
       }
-      &:hover,
-      &:focus {
-        color: #dba919;
+      &:hover {
+        color: #1ea2ae;
       }
     }
 
@@ -41,15 +49,15 @@
       font-weight: bold;
       letter-spacing: 0.8px;
       font-size: 18px;
-      text-transform: capitalize;
+      // text-transform: capitalize;
 
       &.active {
-        color: #dba919;
+        color: #1ea2ae;
       }
 
       &:hover,
       &:focus {
-        color: #dba919;
+        color: #1ea2ae;
       }
     }
   }
@@ -62,4 +70,8 @@
 
 #border-color {
   border-color: rgba(0, 0, 0, 0);
+}
+
+.menu-open {
+  transition: 1s;
 }

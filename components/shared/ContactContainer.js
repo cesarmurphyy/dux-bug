@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Container, Row, Col } from 'reactstrap';
+import Link from 'next/link';
 
 class ContactContainer extends React.Component {
   constructor(props) {
@@ -32,16 +33,20 @@ class ContactContainer extends React.Component {
           />
           <Container>
             <Row>
-              <Col md="12" className="container-inner">
-                <div>
-                  <img
-                    className="contact-image"
-                    src="/static/images/Dux_logo1.svg"
-                  />
-                  <h4>{this.props.blurb}</h4>
-                </div>
-                <button className="h1-contact">contact us</button>
-              </Col>
+              <div className="contact-container">
+                <Col md="6" className="container-inner">
+                  <div>
+                    <img
+                      className="contact-image"
+                      src="/static/images/Dux_logo1.svg"
+                    />
+                    <p className="container-inner">{this.props.blurb}</p>
+                  </div>
+                  <Link href="/contact">
+                    <Button className="h1-contact">contact us</Button>
+                  </Link>
+                </Col>
+              </div>
             </Row>
           </Container>
         </div>

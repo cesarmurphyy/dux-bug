@@ -7,7 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  Dropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
@@ -33,23 +33,34 @@ export default class Example extends React.Component {
   constructor(props) {
     super(props);
 
-    this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
+      dropdownOpen: false
     };
+
+    this.toggle = this.toggle.bind(this);
+    this.toggleDropdown = this.toggleDropdown.bind(this);
   }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
+
+  toggleDropdown() {
+    this.setState({
+      dropdownOpen: !this.state.dropdownOpen
+    });
+  }
+
   render() {
     const { className } = this.props;
 
     return (
       <div>
         <Navbar
-          className={`port-navbar port-nav-base absolute ${className}`}
+          className={`port-navbar port-nav-base absolute ${className} menu-open`}
           light //was light - refers to burger
           expand="md"
         >
@@ -68,7 +79,10 @@ export default class Example extends React.Component {
               <NavItem className="port-navbar-item">
                 <BsNavLink route="/" title="Home" />
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
+              <Dropdown
+                isOpen={this.state.dropdownOpen}
+                toggle={this.toggleDropdown}
+              >
                 <DropdownToggle nav caret className="port-navbar-drop">
                   Our Services
                 </DropdownToggle>
@@ -86,7 +100,7 @@ export default class Example extends React.Component {
                     <BsNavLink route="/graphic" title="Graphic Design" />
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
+              </Dropdown>
               <NavItem className="port-navbar-item">
                 <BsNavLink route="/contact" title="Contact Us" />
               </NavItem>
