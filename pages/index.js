@@ -10,7 +10,13 @@ import AnimatedLogo from '../components/shared/AnimatedLogo';
 class Index extends React.Component {
   constructor(props) {
     super(props);
-    this.roles = ['what do we do?'];
+    this.roles = [
+      'Developers.',
+      'Designers.',
+      'Creators.',
+      'Innovators.',
+      'People.'
+    ];
   }
 
   render() {
@@ -34,7 +40,9 @@ class Index extends React.Component {
           <Container>
             <Row>
               <Col md="12" className="self-typed">
+                We Are{' '}
                 <Typed
+                  loop
                   typeSpeed={65}
                   backSpeed={65}
                   strings={this.roles}
@@ -56,6 +64,8 @@ class Index extends React.Component {
           content={`From simple websites to real-time secure APIs, we are here to create fully custom solutions to take your online presence to the next level.`}
           style={{ background: 'white' }}
           featureImage={'/static/images/laptop.png'}
+          hasButton={true}
+          imageClass={'ios-image'}
         />
 
         <ContentContainer2
@@ -66,15 +76,19 @@ class Index extends React.Component {
           image={'/static/images/iphone-backing.jpeg'}
           overlay={'#25628b'}
           featureImage={'/static/images/iphone.png'}
+          imageClass={'ios-image'}
         />
 
         <ContentContainer
-          font={'white'}
-          image={'/static/images/ecommerce-backing.jpeg'}
+          font={'black'}
+          background={'white'}
           title={'E-Commerce'}
-          content={`With over 20% of all purchases this year being made online, it is no secret that the future of sales is going digital. Using Shopify, our team can build your store to be as simple or complex as you desire, all while retaining the easy Shopify interface for your day to day management.`}
-          overlay={'#272727'}
-          featureImage={'/static/images/shopify.svg'}
+          content={`With over 20% of all purchases this year being made online, it is no secret that the future of sales is going digital. Using Shopify, our team can build
+           your store to be as simple or complex as you desire, all while retaining the easy Shopify interface for your day to day management.`}
+          style={{ background: 'white' }}
+          featureImage={'/static/images/shopify.png'}
+          hasButton={true}
+          imageClass={'display-image'}
         />
 
         <ContentContainer2
@@ -84,14 +98,7 @@ class Index extends React.Component {
           style={{ background: 'white' }}
           image={'/static/images/graphic-design-backing.jpeg'}
           overlay={'#25628b'}
-        />
-
-        <ContactContainer
-          font={'white'}
-          image={'/static/images/contact-backing.jpg'}
-          overlay={'#272727'}
-          blurb={`We look forward to chatting with you about your next dream idea. If you have something in mind that is not listed, don’t hesitate to ask.
-          `}
+          featureImage={'/static/images/graphic-laptop.svg'}
         />
       </BaseLayout>
     );

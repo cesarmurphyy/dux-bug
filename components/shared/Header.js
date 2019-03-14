@@ -54,13 +54,32 @@ export default class Example extends React.Component {
     });
   }
 
+  selectColour() {
+    const { page } = this.props;
+
+    switch (page) {
+      case 'home':
+        return 'home';
+      case 'web':
+        return 'web';
+      case 'app':
+        return 'app';
+      case 'ecommerce':
+        return 'ecommerce';
+      case 'graphic':
+        return 'graphic';
+      default:
+        return 'default';
+    }
+  }
+
   render() {
     const { className } = this.props;
 
     return (
       <div>
         <Navbar
-          className={`port-navbar port-nav-base absolute ${className} menu-open`}
+          className={`port-navbar port-nav-base absolute ${className} menu-open port-navbar-${this.selectColour()}`}
           light //was light - refers to burger
           expand="md"
         >

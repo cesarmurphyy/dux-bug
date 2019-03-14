@@ -145,13 +145,20 @@ export default class ContactForm extends React.Component {
                 onChange={this.handleChange}
                 placeholder="Subject"
               >
-                <option hidden>Subject</option>
-                <option>Custom Website</option>
-                <option>Custom WebApp</option>
-                <option>iOS App</option>
-                <option>E-Commerce</option>
-                <option>Graphic Design</option>
-                <option>Other</option>
+                <option
+                  value=""
+                  disabled
+                  defaultValue
+                  style={{ color: 'gray' }}
+                >
+                  Subject
+                </option>
+                <option value="Custom Website">Custom Website</option>
+                <option value="Custom WebApp">Custom WebApp</option>
+                <option value="iOS App">iOS App</option>
+                <option value="E-Commerce">E-Commerce</option>
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="Other">Other</option>
               </Input>
             </FormGroup>
             <FormGroup>

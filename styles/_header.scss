@@ -2,21 +2,33 @@
 
 .port-navbar.port-nav-base {
   padding: 10px 20px;
-  margin-top: 20px;
+  // margin-top: 20px;
   position: absolute;
   transform: translate(-50%, 0);
   left: 50%;
-  width: 80%;
+  width: 100%;
   z-index: 1;
+  // display: block;
 
   @media screen and(max-width: 756px) {
     margin-top: 0px;
     width: 100%;
     left: 50%;
+    background: white;
   }
   // padding: 15px;
 
+  // background: white;
   background: white;
+
+  // background: linear-gradient(
+  //   135deg,
+  //   white 20%,
+  //   white 20% 40%,
+  //   white 40% 60%,
+  //   white 60% 90%,
+  //   transparent 90%
+  // );
 
   .port-navbar {
     &-brand {
@@ -34,30 +46,37 @@
       font-weight: bold;
       letter-spacing: 0.8px;
       font-size: 18px;
+      opacity: 0.5;
       // text-transform: capitalize;
 
       &.active {
         color: #1ea2ae;
+        opacity: 1;
       }
       &:hover {
         color: #1ea2ae;
+        opacity: 1;
       }
     }
 
     &-link {
+      // display: block;
       color: black;
       font-weight: bold;
       letter-spacing: 0.8px;
       font-size: 18px;
+      opacity: 0.5;
       // text-transform: capitalize;
 
       &.active {
         color: #1ea2ae;
+        opacity: 1;
       }
 
       &:hover,
       &:focus {
         color: #1ea2ae;
+        opacity: 1;
       }
     }
   }
@@ -75,3 +94,11 @@
 .menu-open {
   transition: 1s;
 }
+
+// .navbar-nav {
+//   margin-right: 100px;
+// }
+// .navbar-nav .dropdown-menu {
+//   background: #272727;
+//   opacity: 0.5;
+// }

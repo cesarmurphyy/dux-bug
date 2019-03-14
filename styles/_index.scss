@@ -1,7 +1,7 @@
 // Index Page
 
 .cover {
-  background-color: #25628b;
+  background-color: white;
   position: relative;
 }
 
@@ -36,7 +36,7 @@ p {
   position: relative;
 
   background-size: cover;
-  animation: fadein 5s ease 0s 1 normal none running;
+  // animation: fadein 5s ease 0s 1 normal none running;
 
   #logo-image {
     stroke: white;
@@ -54,19 +54,20 @@ p {
     }
   }
 
-  .fade-container {
-    z-index: 10;
-    position: absolute;
-    background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(255, 255, 255, 1) 80%
-    );
-
-    height: 100px;
-    bottom: 0;
-    width: 100%;
-  }
+  // .fade-container {
+  //   z-index: 10;
+  //   position: absolute;
+  //   background: linear-gradient(
+  //     135deg,
+  //     white 200px,
+  //     transparent 200px 90%,
+  //     white 90%
+  //   );
+  //   z-index: 0;
+  //   height: 100%;
+  //   bottom: 0;
+  //   width: 100%;
+  // }
   //   .fade-container-rad {
   //     z-index: 10;
   //     position: absolute;
@@ -349,6 +350,7 @@ p {
 }
 
 .display-image-inner {
+  padding: 20px;
   position: absolute;
 
   max-height: 100%;
@@ -387,20 +389,33 @@ p {
 }
 
 .content-container {
-  background: no-repeat center center;
+  background: no-repeat repeat center;
   width: 100%;
   position: relative;
   display: flex;
   min-height: 300px;
-
-  // padding: 20px 0 20px 0;
-
-  // background-color: #0E86DF;
+  // clip-path: polygon(300px 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .typed-container {
   height: 100%;
 }
+
+// .angled-container {
+//   z-index: 100;
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   // background: #0E86DF;
+//   background: linear-gradient(
+//     135deg,
+//     white 20%,
+//     transparent 12% 40%,
+//     transparent 40% 60%,
+//     transparent 60% 80%,
+//     transparent 80%
+//   );
+// }
 
 .container-overlay {
   position: absolute;
@@ -468,13 +483,27 @@ p {
   color: white;
   font-size: 20px;
   text-align: center;
+  border-color: white;
 }
 
 .h1-contact:hover {
   background: white;
   color: #272727;
 }
+.h1-contact-web {
+  padding: 15px 35px;
+  background: none;
+  z-index: 10;
+  border-radius: 40px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
 
+.h1-contact-web:hover {
+  background: #272727;
+  color: white;
+}
 .contact-container {
   display: flex;
   justify-content: center;
@@ -492,4 +521,9 @@ p {
 .container-button {
   text-align: center;
   margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
 }

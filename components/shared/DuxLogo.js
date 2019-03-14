@@ -4,7 +4,7 @@ class DuxLogo extends React.Component {
   render() {
     return (
       <div>
-        <svg viewBox="0 0 40 100" id="dux-logo">
+        <svg viewBox="0 0 40 100" id="dux-logo" fill="white">
           <g id="Layer_2" data-name="Layer 2">
             <g id="Layer_1-2" data-name="Layer 1">
               <path

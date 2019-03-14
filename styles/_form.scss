@@ -3,9 +3,11 @@
     width: 100%;
     padding: 20px 40px;
     border-radius: 10px;
+
     //box-shadow: 0px 10px 50px #555;
     background-color: #ffffff;
     margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   form {
@@ -58,4 +60,15 @@
     height: 150px;
     resize: none;
   }
+}
+
+select:invalid {
+  color: red;
+}
+option:first-child {
+  display: none;
+  color: red;
+}
+option {
+  color: black;
 }

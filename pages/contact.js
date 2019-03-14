@@ -5,14 +5,14 @@ import Typed from 'react-typed';
 import { goToTop } from 'react-scrollable-anchor';
 
 import { Container, Row, Col } from 'reactstrap';
-import { Link } from '../routes';
+// import { Link } from '../routes';
 import ContactForm from '../components/ContactForm';
 
 class Contact extends React.Component {
   constructor(props) {
     super(props);
 
-    this.roles = ['plan', 'design', 'code', 'test', 'deploy'];
+    this.roles = ['plan', 'design', 'develop', 'test', 'deploy'];
   }
 
   render() {
@@ -27,7 +27,7 @@ class Contact extends React.Component {
           style={{ backgroundImage: "url('/static/images/code.jpg')" }}
         >
           <div className="overlay" />
-          <Container>
+          <Container className="form-container">
             <div className="row">
               <div className="col-lg-8 col-md-10 mx-auto">
                 <div className="site-heading">

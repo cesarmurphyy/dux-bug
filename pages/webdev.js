@@ -3,7 +3,6 @@ import BaseLayout from '../components/layouts/BaseLayout';
 import BasePage from '../components/BasePage';
 
 import { Container, Row, Col } from 'reactstrap';
-import { Link } from '../routes';
 
 import ContentContainer from '../components/shared/ContentContainer';
 import ContentContainer2 from '../components/shared/ContentContainer2';
@@ -23,22 +22,19 @@ class GraphicDesign extends React.Component {
             backgroundImage: "url('/static/images/ecommerce-photo.jpeg')"
           }}
         >
-          <div className="overlay" style={{ background: '#0093FF' }}>
-            <Container>
-              <Row>
-                <Col md="6">
-                  <div className="site-heading">
-                    <h1>Web Development</h1>
-                    <span className="subheading">
-                      Using our expertise in React, we can create lightweight,
-                      interactive Websites and Web Apps tailored to meet your
-                      business needs.
-                    </span>
-                  </div>
-                </Col>
-                <Col md="6" />
-              </Row>
-            </Container>
+          <div className="overlay" style={{ background: '#31A9B8' }} />
+          <div className="site-heading">
+            <div className="page-container">
+              <h1>Web Development</h1>
+              <p className="subheading">
+                Using our expertise in React, we can create lightweight,
+                interactive Websites and Web Apps tailored to meet your business
+                needs.
+              </p>
+            </div>
+            <div className="page-container">
+              <img src="/static/images/react.svg" />
+            </div>
           </div>
         </div>
 
@@ -48,12 +44,15 @@ class GraphicDesign extends React.Component {
           title={'Built to Order'}
           content={`Get ahead of your competition with a custom built interface to showcase your brand and ideas. In today’s society, your website is your first impression to your potential customers. Allow us to help you to make it one to remember.`}
           style={{ background: 'white' }}
+          featureImage={'/static/images/code-image.svg'}
         />
 
         <ContactContainer
+          font={'white'}
           image={'/static/images/contact-backing.jpg'}
-          overlay={'#0093FF'}
+          overlay={'#31A9B8'}
           blurb={`Ready to take your brand to the next level? Get in touch with us!`}
+          font={'white'}
         />
       </BaseLayout>
     );

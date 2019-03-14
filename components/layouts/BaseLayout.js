@@ -7,7 +7,7 @@ import { configureAnchors } from 'react-scrollable-anchor';
 import DuxLogo from '../shared/DuxLogo';
 
 const BaseLayout = props => {
-  const { className, children, title } = props;
+  const { className, children, title, current } = props;
   const headerType = props.headerType || 'default';
 
   configureAnchors({ scrollDuration: 800 });
@@ -20,7 +20,7 @@ const BaseLayout = props => {
         <meta name="keywords" content="" />
         <meta property="og:title" content="" />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:url" content="http://localhost:3000" />
+        <meta property="og:url" content={`${process.env.BASE_URL}`} />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
@@ -41,7 +41,7 @@ const BaseLayout = props => {
         </ScrollableAnchor>
         <Container>
           <Row>
-            <Header className={`port-nav-${headerType}`} />
+            <Header page={current} className={`port-nav-${headerType}`} />
           </Row>
         </Container>
 
@@ -54,12 +54,16 @@ const BaseLayout = props => {
               <div className="col-lg-8 col-md-10 mx-auto">
                 <ul className="footer-icon-container">
                   <li className="list-inline-item">
-                    <a href="#">
-                      <DuxLogo />
-                    </a>
+                    <img
+                      src="/static/images/Dux_logo1.svg"
+                      style={{ height: '100%' }}
+                    />
                   </li>
                   <li className="list-inline-item">
-                    <a href="https://www.instagram.com/duxdevelopment/">
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/duxdevelopment/"
+                    >
                       <span className="fa-stack fa-lg">
                         <i className="fab fa-instagram fa-stack-2x fa-inverse" />
                       </span>
@@ -74,7 +78,7 @@ const BaseLayout = props => {
                   </li>
                 </ul>
                 <p className="copyright text-muted">
-                  Copyright &copy; Dux Development 2019
+                  Copyright &copy; Dux Development Pty Ltd 2019
                 </p>
               </div>
             </Row>

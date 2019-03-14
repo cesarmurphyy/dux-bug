@@ -23,25 +23,24 @@ class GraphicDesign extends React.Component {
             backgroundImage: "url('/static/images/ecommerce-photo.jpeg')"
           }}
         >
-          <div className="overlay" style={{ background: '#71238C' }}>
-            <Container>
-              <Row>
-                <Col md="6">
-                  <div className="site-heading">
-                    <h1>iOS Apps</h1>
-                    <span className="subheading">
-                      Don’t sit on your idea a moment longer. Let’s get it to
-                      market before someone else does!
-                    </span>
-                  </div>
-                </Col>
-                <Col md="6" />
-              </Row>
-            </Container>
+          <div className="overlay" style={{ background: '#CF3721' }} />
+          <div className="site-heading">
+            <div className="page-container">
+              <h1>iOS Apps</h1>
+              <p className="subheading">
+                Don’t sit on your idea a moment longer. Let’s get it to market
+                before someone else does!
+              </p>
+            </div>
+            <div className="page-container">
+              <img src="static/images/ios.svg" />
+            </div>
           </div>
         </div>
 
         <ContentContainer
+          featureImage={'/static/images/iphone-red.png'}
+          imageClass={'ios-image'}
           font={'black'}
           background={'white'}
           title={'From Ideas to Deployment'}
@@ -50,9 +49,11 @@ class GraphicDesign extends React.Component {
         />
 
         <ContactContainer
+          font={'white'}
           image={'/static/images/contact-backing.jpg'}
-          overlay={'#71238C'}
+          overlay={'#CF3721'}
           blurb={`It is time to take your share of the $80+ billion dollar industry.`}
+          font={'white'}
         />
       </BaseLayout>
     );

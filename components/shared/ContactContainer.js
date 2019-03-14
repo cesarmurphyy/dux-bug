@@ -1,11 +1,12 @@
 import React from 'react';
 import { Button, Container, Row, Col } from 'reactstrap';
-import Link from 'next/link';
+import { Link } from '../../routes';
 
 class ContactContainer extends React.Component {
   constructor(props) {
     super(props);
   }
+
   render() {
     const {
       title,
@@ -32,7 +33,7 @@ class ContactContainer extends React.Component {
             style={{ background: `${this.props.overlay}` }}
           />
           <Container>
-            <Row>
+            <Row className="contact-container">
               <div className="contact-container">
                 <Col md="6" className="container-inner">
                   <div>
@@ -42,9 +43,9 @@ class ContactContainer extends React.Component {
                     />
                     <p className="container-inner">{this.props.blurb}</p>
                   </div>
-                  <Link href="/contact">
+                  <a href="http://dux.io/contact">
                     <Button className="h1-contact">contact us</Button>
-                  </Link>
+                  </a>
                 </Col>
               </div>
             </Row>
